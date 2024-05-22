@@ -5,13 +5,15 @@ import pandas as pd
 import os
 import logging
 import shutil
+from flask_socketio import SocketIO, emit
 
 app = Flask(__name__)
 app.config['UPLOAD_FOLDER'] = 'uploads'
 app.config['DOWNLOAD_FOLDER'] = 'downloads'
+socketio = SocketIO(app)
 
 # Configure logging
-logging.basicConfig(filename='app.log', level=logging.INFO, 
+logging.basicConfig(filename='app.log', level=logging.INFO,
                     format='%(asctime)s %(levelname)s:%(message)s')
 
 @app.route('/', methods=['GET', 'POST'])
@@ -87,6 +89,14 @@ def index():
                 
                 results.append(response.text)
 
+                # Skicka progressuppdatering till klienten
+                progress = int((i + 1) / len(names) * 100)
+                socketio.emit('progress_update', {'progress': progress})
+
+                # Kontrollera om alla API-anrop är klara
+                if progress == 100:
+                    socketio.emit('process_complete')
+
             # Skriv uppdaterad DataFrame till en ny Excel-fil
             output_file_path = os.path.join(app.config['DOWNLOAD_FOLDER'], 'namn_inkl_urls.xlsx')
             df.to_excel(output_file_path, index=False)
@@ -104,4 +114,4 @@ if __name__ == '__main__':
         os.makedirs(app.config['UPLOAD_FOLDER'])
     if not os.path.exists(app.config['DOWNLOAD_FOLDER']):
         os.makedirs(app.config['DOWNLOAD_FOLDER'])
-    app.run(debug=True)
+    socketio.run(app, debug=True)

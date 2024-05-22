@@ -36797,3 +36797,1513 @@ background-color:#555555;}
 2024-05-21 15:42:45,833 INFO:127.0.0.1 - - [21/May/2024 15:42:45] "[33mPOST /upload HTTP/1.1[0m" 404 -
 2024-05-21 15:42:45,838 INFO:127.0.0.1 - - [21/May/2024 15:42:45] "[33mPOST /upload HTTP/1.1[0m" 404 -
 2024-05-21 15:42:45,840 INFO:127.0.0.1 - - [21/May/2024 15:42:45] "[33mPOST /upload HTTP/1.1[0m" 404 -
+2024-05-22 08:23:20,808 INFO:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-05-22 08:23:20,808 INFO:[33mPress CTRL+C to quit[0m
+2024-05-22 08:23:20,810 INFO: * Restarting with stat
+2024-05-22 08:23:21,844 WARNING: * Debugger is active!
+2024-05-22 08:23:21,850 INFO: * Debugger PIN: 524-106-737
+2024-05-22 08:23:33,940 INFO:127.0.0.1 - - [22/May/2024 08:23:33] "GET / HTTP/1.1" 200 -
+2024-05-22 08:24:18,631 INFO:127.0.0.1 - - [22/May/2024 08:24:18] "[33mPOST /upload HTTP/1.1[0m" 404 -
+2024-05-22 08:24:18,635 INFO:127.0.0.1 - - [22/May/2024 08:24:18] "[33mPOST /upload HTTP/1.1[0m" 404 -
+2024-05-22 08:24:18,638 INFO:127.0.0.1 - - [22/May/2024 08:24:18] "[33mPOST /upload HTTP/1.1[0m" 404 -
+2024-05-22 08:24:18,644 INFO:127.0.0.1 - - [22/May/2024 08:24:18] "[33mPOST /upload HTTP/1.1[0m" 404 -
+2024-05-22 08:24:18,648 INFO:127.0.0.1 - - [22/May/2024 08:24:18] "[33mPOST /upload HTTP/1.1[0m" 404 -
+2024-05-22 08:24:18,651 INFO:127.0.0.1 - - [22/May/2024 08:24:18] "[33mPOST /upload HTTP/1.1[0m" 404 -
+2024-05-22 08:24:18,654 INFO:127.0.0.1 - - [22/May/2024 08:24:18] "[33mPOST /upload HTTP/1.1[0m" 404 -
+2024-05-22 08:24:18,661 INFO:127.0.0.1 - - [22/May/2024 08:24:18] "[33mPOST /upload HTTP/1.1[0m" 404 -
+2024-05-22 08:24:18,666 INFO:127.0.0.1 - - [22/May/2024 08:24:18] "[33mPOST /upload HTTP/1.1[0m" 404 -
+2024-05-22 08:24:18,670 INFO:127.0.0.1 - - [22/May/2024 08:24:18] "[33mPOST /upload HTTP/1.1[0m" 404 -
+2024-05-22 08:24:18,672 INFO:127.0.0.1 - - [22/May/2024 08:24:18] "[33mPOST /upload HTTP/1.1[0m" 404 -
+2024-05-22 08:24:18,675 INFO:127.0.0.1 - - [22/May/2024 08:24:18] "[33mPOST /upload HTTP/1.1[0m" 404 -
+2024-05-22 08:24:18,681 INFO:127.0.0.1 - - [22/May/2024 08:24:18] "[33mPOST /upload HTTP/1.1[0m" 404 -
+2024-05-22 08:24:18,686 INFO:127.0.0.1 - - [22/May/2024 08:24:18] "[33mPOST /upload HTTP/1.1[0m" 404 -
+2024-05-22 08:24:18,687 INFO:127.0.0.1 - - [22/May/2024 08:24:18] "[33mPOST /upload HTTP/1.1[0m" 404 -
+2024-05-22 08:24:48,083 INFO:127.0.0.1 - - [22/May/2024 08:24:48] "GET / HTTP/1.1" 200 -
+2024-05-22 08:24:54,726 INFO:127.0.0.1 - - [22/May/2024 08:24:54] "GET / HTTP/1.1" 200 -
+2024-05-22 08:25:46,167 INFO:Sending request for Link-1: URL: https://api.tickster.com/sv/api/0.4/crm/A86XZUHTT37MGBV/campaigns/BUN8NBYK/communications?key=4f07078a24ee683d, Payload: {'name': 'Link-1', 'communicationType': 1, 'eventId': 'BMXPMEV2LHN3GHZ', 'inventoryType': 3, 'inventory': 2, 'inventoryTags': 'hej', 'internalreference': 'hej'}, Headers: {'Content-Type': 'application/json'}, Auth: (rydestahl.test, ************)
+2024-05-22 08:25:46,167 INFO:Response status code for Link-1: 200
+2024-05-22 08:25:46,168 INFO:Response text for Link-1: {
+  "id": "WEXPEF0",
+  "name": "Link-1",
+  "communicationType": 1,
+  "campaign": {
+    "id": "BUN8NBYK",
+    "name": "nytt test"
+  },
+  "event": {
+    "id": "BMXPMEV2LHN3GHZ",
+    "name": "Evenemang till kampanjAPI"
+  },
+  "inventoryType": 3,
+  "inventoryTags": null,
+  "inventory": 2,
+  "inventoryTotal": 2,
+  "inventoryConsumed": 0,
+  "inventoryReserved": 0,
+  "internalReference": "hej",
+  "url": "https://secure.tickster.com/bmxpmev2lhn3ghz?c=wexpef0"
+}
+2024-05-22 08:25:46,169 INFO:Received JSON response for Link-1: {'id': 'WEXPEF0', 'name': 'Link-1', 'communicationType': 1, 'campaign': {'id': 'BUN8NBYK', 'name': 'nytt test'}, 'event': {'id': 'BMXPMEV2LHN3GHZ', 'name': 'Evenemang till kampanjAPI'}, 'inventoryType': 3, 'inventoryTags': None, 'inventory': 2, 'inventoryTotal': 2, 'inventoryConsumed': 0, 'inventoryReserved': 0, 'internalReference': 'hej', 'url': 'https://secure.tickster.com/bmxpmev2lhn3ghz?c=wexpef0'}
+2024-05-22 08:25:46,751 INFO:Sending request for Link-2: URL: https://api.tickster.com/sv/api/0.4/crm/A86XZUHTT37MGBV/campaigns/BUN8NBYK/communications?key=4f07078a24ee683d, Payload: {'name': 'Link-2', 'communicationType': 1, 'eventId': 'BMXPMEV2LHN3GHZ', 'inventoryType': 3, 'inventory': 2, 'inventoryTags': 'hej', 'internalreference': 'hej'}, Headers: {'Content-Type': 'application/json'}, Auth: (rydestahl.test, ************)
+2024-05-22 08:25:46,751 INFO:Response status code for Link-2: 200
+2024-05-22 08:25:46,751 INFO:Response text for Link-2: {
+  "id": "CD8W7XA",
+  "name": "Link-2",
+  "communicationType": 1,
+  "campaign": {
+    "id": "BUN8NBYK",
+    "name": "nytt test"
+  },
+  "event": {
+    "id": "BMXPMEV2LHN3GHZ",
+    "name": "Evenemang till kampanjAPI"
+  },
+  "inventoryType": 3,
+  "inventoryTags": null,
+  "inventory": 2,
+  "inventoryTotal": 2,
+  "inventoryConsumed": 0,
+  "inventoryReserved": 0,
+  "internalReference": "hej",
+  "url": "https://secure.tickster.com/bmxpmev2lhn3ghz?c=cd8w7xa"
+}
+2024-05-22 08:25:46,751 INFO:Received JSON response for Link-2: {'id': 'CD8W7XA', 'name': 'Link-2', 'communicationType': 1, 'campaign': {'id': 'BUN8NBYK', 'name': 'nytt test'}, 'event': {'id': 'BMXPMEV2LHN3GHZ', 'name': 'Evenemang till kampanjAPI'}, 'inventoryType': 3, 'inventoryTags': None, 'inventory': 2, 'inventoryTotal': 2, 'inventoryConsumed': 0, 'inventoryReserved': 0, 'internalReference': 'hej', 'url': 'https://secure.tickster.com/bmxpmev2lhn3ghz?c=cd8w7xa'}
+2024-05-22 08:25:47,345 INFO:Sending request for Link-3: URL: https://api.tickster.com/sv/api/0.4/crm/A86XZUHTT37MGBV/campaigns/BUN8NBYK/communications?key=4f07078a24ee683d, Payload: {'name': 'Link-3', 'communicationType': 1, 'eventId': 'BMXPMEV2LHN3GHZ', 'inventoryType': 3, 'inventory': 2, 'inventoryTags': 'hej', 'internalreference': 'hej'}, Headers: {'Content-Type': 'application/json'}, Auth: (rydestahl.test, ************)
+2024-05-22 08:25:47,346 INFO:Response status code for Link-3: 200
+2024-05-22 08:25:47,346 INFO:Response text for Link-3: {
+  "id": "B1ER75B",
+  "name": "Link-3",
+  "communicationType": 1,
+  "campaign": {
+    "id": "BUN8NBYK",
+    "name": "nytt test"
+  },
+  "event": {
+    "id": "BMXPMEV2LHN3GHZ",
+    "name": "Evenemang till kampanjAPI"
+  },
+  "inventoryType": 3,
+  "inventoryTags": null,
+  "inventory": 2,
+  "inventoryTotal": 2,
+  "inventoryConsumed": 0,
+  "inventoryReserved": 0,
+  "internalReference": "hej",
+  "url": "https://secure.tickster.com/bmxpmev2lhn3ghz?c=b1er75b"
+}
+2024-05-22 08:25:47,346 INFO:Received JSON response for Link-3: {'id': 'B1ER75B', 'name': 'Link-3', 'communicationType': 1, 'campaign': {'id': 'BUN8NBYK', 'name': 'nytt test'}, 'event': {'id': 'BMXPMEV2LHN3GHZ', 'name': 'Evenemang till kampanjAPI'}, 'inventoryType': 3, 'inventoryTags': None, 'inventory': 2, 'inventoryTotal': 2, 'inventoryConsumed': 0, 'inventoryReserved': 0, 'internalReference': 'hej', 'url': 'https://secure.tickster.com/bmxpmev2lhn3ghz?c=b1er75b'}
+2024-05-22 08:25:47,918 INFO:Sending request for Link-4: URL: https://api.tickster.com/sv/api/0.4/crm/A86XZUHTT37MGBV/campaigns/BUN8NBYK/communications?key=4f07078a24ee683d, Payload: {'name': 'Link-4', 'communicationType': 1, 'eventId': 'BMXPMEV2LHN3GHZ', 'inventoryType': 3, 'inventory': 2, 'inventoryTags': 'hej', 'internalreference': 'hej'}, Headers: {'Content-Type': 'application/json'}, Auth: (rydestahl.test, ************)
+2024-05-22 08:25:47,919 INFO:Response status code for Link-4: 200
+2024-05-22 08:25:47,919 INFO:Response text for Link-4: {
+  "id": "ZPFZ6GH",
+  "name": "Link-4",
+  "communicationType": 1,
+  "campaign": {
+    "id": "BUN8NBYK",
+    "name": "nytt test"
+  },
+  "event": {
+    "id": "BMXPMEV2LHN3GHZ",
+    "name": "Evenemang till kampanjAPI"
+  },
+  "inventoryType": 3,
+  "inventoryTags": null,
+  "inventory": 2,
+  "inventoryTotal": 2,
+  "inventoryConsumed": 0,
+  "inventoryReserved": 0,
+  "internalReference": "hej",
+  "url": "https://secure.tickster.com/bmxpmev2lhn3ghz?c=zpfz6gh"
+}
+2024-05-22 08:25:47,919 INFO:Received JSON response for Link-4: {'id': 'ZPFZ6GH', 'name': 'Link-4', 'communicationType': 1, 'campaign': {'id': 'BUN8NBYK', 'name': 'nytt test'}, 'event': {'id': 'BMXPMEV2LHN3GHZ', 'name': 'Evenemang till kampanjAPI'}, 'inventoryType': 3, 'inventoryTags': None, 'inventory': 2, 'inventoryTotal': 2, 'inventoryConsumed': 0, 'inventoryReserved': 0, 'internalReference': 'hej', 'url': 'https://secure.tickster.com/bmxpmev2lhn3ghz?c=zpfz6gh'}
+2024-05-22 08:25:48,474 INFO:Sending request for Link-5: URL: https://api.tickster.com/sv/api/0.4/crm/A86XZUHTT37MGBV/campaigns/BUN8NBYK/communications?key=4f07078a24ee683d, Payload: {'name': 'Link-5', 'communicationType': 1, 'eventId': 'BMXPMEV2LHN3GHZ', 'inventoryType': 3, 'inventory': 2, 'inventoryTags': 'hej', 'internalreference': 'hej'}, Headers: {'Content-Type': 'application/json'}, Auth: (rydestahl.test, ************)
+2024-05-22 08:25:48,475 INFO:Response status code for Link-5: 200
+2024-05-22 08:25:48,475 INFO:Response text for Link-5: {
+  "id": "CKP3FKW",
+  "name": "Link-5",
+  "communicationType": 1,
+  "campaign": {
+    "id": "BUN8NBYK",
+    "name": "nytt test"
+  },
+  "event": {
+    "id": "BMXPMEV2LHN3GHZ",
+    "name": "Evenemang till kampanjAPI"
+  },
+  "inventoryType": 3,
+  "inventoryTags": null,
+  "inventory": 2,
+  "inventoryTotal": 2,
+  "inventoryConsumed": 0,
+  "inventoryReserved": 0,
+  "internalReference": "hej",
+  "url": "https://secure.tickster.com/bmxpmev2lhn3ghz?c=ckp3fkw"
+}
+2024-05-22 08:25:48,475 INFO:Received JSON response for Link-5: {'id': 'CKP3FKW', 'name': 'Link-5', 'communicationType': 1, 'campaign': {'id': 'BUN8NBYK', 'name': 'nytt test'}, 'event': {'id': 'BMXPMEV2LHN3GHZ', 'name': 'Evenemang till kampanjAPI'}, 'inventoryType': 3, 'inventoryTags': None, 'inventory': 2, 'inventoryTotal': 2, 'inventoryConsumed': 0, 'inventoryReserved': 0, 'internalReference': 'hej', 'url': 'https://secure.tickster.com/bmxpmev2lhn3ghz?c=ckp3fkw'}
+2024-05-22 08:25:49,064 INFO:Sending request for Link-6: URL: https://api.tickster.com/sv/api/0.4/crm/A86XZUHTT37MGBV/campaigns/BUN8NBYK/communications?key=4f07078a24ee683d, Payload: {'name': 'Link-6', 'communicationType': 1, 'eventId': 'BMXPMEV2LHN3GHZ', 'inventoryType': 3, 'inventory': 2, 'inventoryTags': 'hej', 'internalreference': 'hej'}, Headers: {'Content-Type': 'application/json'}, Auth: (rydestahl.test, ************)
+2024-05-22 08:25:49,064 INFO:Response status code for Link-6: 200
+2024-05-22 08:25:49,064 INFO:Response text for Link-6: {
+  "id": "MR8EYGJ",
+  "name": "Link-6",
+  "communicationType": 1,
+  "campaign": {
+    "id": "BUN8NBYK",
+    "name": "nytt test"
+  },
+  "event": {
+    "id": "BMXPMEV2LHN3GHZ",
+    "name": "Evenemang till kampanjAPI"
+  },
+  "inventoryType": 3,
+  "inventoryTags": null,
+  "inventory": 2,
+  "inventoryTotal": 2,
+  "inventoryConsumed": 0,
+  "inventoryReserved": 0,
+  "internalReference": "hej",
+  "url": "https://secure.tickster.com/bmxpmev2lhn3ghz?c=mr8eygj"
+}
+2024-05-22 08:25:49,064 INFO:Received JSON response for Link-6: {'id': 'MR8EYGJ', 'name': 'Link-6', 'communicationType': 1, 'campaign': {'id': 'BUN8NBYK', 'name': 'nytt test'}, 'event': {'id': 'BMXPMEV2LHN3GHZ', 'name': 'Evenemang till kampanjAPI'}, 'inventoryType': 3, 'inventoryTags': None, 'inventory': 2, 'inventoryTotal': 2, 'inventoryConsumed': 0, 'inventoryReserved': 0, 'internalReference': 'hej', 'url': 'https://secure.tickster.com/bmxpmev2lhn3ghz?c=mr8eygj'}
+2024-05-22 08:25:49,627 INFO:Sending request for Link-7: URL: https://api.tickster.com/sv/api/0.4/crm/A86XZUHTT37MGBV/campaigns/BUN8NBYK/communications?key=4f07078a24ee683d, Payload: {'name': 'Link-7', 'communicationType': 1, 'eventId': 'BMXPMEV2LHN3GHZ', 'inventoryType': 3, 'inventory': 2, 'inventoryTags': 'hej', 'internalreference': 'hej'}, Headers: {'Content-Type': 'application/json'}, Auth: (rydestahl.test, ************)
+2024-05-22 08:25:49,628 INFO:Response status code for Link-7: 200
+2024-05-22 08:25:49,628 INFO:Response text for Link-7: {
+  "id": "2GHNP77",
+  "name": "Link-7",
+  "communicationType": 1,
+  "campaign": {
+    "id": "BUN8NBYK",
+    "name": "nytt test"
+  },
+  "event": {
+    "id": "BMXPMEV2LHN3GHZ",
+    "name": "Evenemang till kampanjAPI"
+  },
+  "inventoryType": 3,
+  "inventoryTags": null,
+  "inventory": 2,
+  "inventoryTotal": 2,
+  "inventoryConsumed": 0,
+  "inventoryReserved": 0,
+  "internalReference": "hej",
+  "url": "https://secure.tickster.com/bmxpmev2lhn3ghz?c=2ghnp77"
+}
+2024-05-22 08:25:49,628 INFO:Received JSON response for Link-7: {'id': '2GHNP77', 'name': 'Link-7', 'communicationType': 1, 'campaign': {'id': 'BUN8NBYK', 'name': 'nytt test'}, 'event': {'id': 'BMXPMEV2LHN3GHZ', 'name': 'Evenemang till kampanjAPI'}, 'inventoryType': 3, 'inventoryTags': None, 'inventory': 2, 'inventoryTotal': 2, 'inventoryConsumed': 0, 'inventoryReserved': 0, 'internalReference': 'hej', 'url': 'https://secure.tickster.com/bmxpmev2lhn3ghz?c=2ghnp77'}
+2024-05-22 08:25:50,163 INFO:Sending request for Link-8: URL: https://api.tickster.com/sv/api/0.4/crm/A86XZUHTT37MGBV/campaigns/BUN8NBYK/communications?key=4f07078a24ee683d, Payload: {'name': 'Link-8', 'communicationType': 1, 'eventId': 'BMXPMEV2LHN3GHZ', 'inventoryType': 3, 'inventory': 2, 'inventoryTags': 'hej', 'internalreference': 'hej'}, Headers: {'Content-Type': 'application/json'}, Auth: (rydestahl.test, ************)
+2024-05-22 08:25:50,163 INFO:Response status code for Link-8: 200
+2024-05-22 08:25:50,163 INFO:Response text for Link-8: {
+  "id": "ATRPKG7",
+  "name": "Link-8",
+  "communicationType": 1,
+  "campaign": {
+    "id": "BUN8NBYK",
+    "name": "nytt test"
+  },
+  "event": {
+    "id": "BMXPMEV2LHN3GHZ",
+    "name": "Evenemang till kampanjAPI"
+  },
+  "inventoryType": 3,
+  "inventoryTags": null,
+  "inventory": 2,
+  "inventoryTotal": 2,
+  "inventoryConsumed": 0,
+  "inventoryReserved": 0,
+  "internalReference": "hej",
+  "url": "https://secure.tickster.com/bmxpmev2lhn3ghz?c=atrpkg7"
+}
+2024-05-22 08:25:50,163 INFO:Received JSON response for Link-8: {'id': 'ATRPKG7', 'name': 'Link-8', 'communicationType': 1, 'campaign': {'id': 'BUN8NBYK', 'name': 'nytt test'}, 'event': {'id': 'BMXPMEV2LHN3GHZ', 'name': 'Evenemang till kampanjAPI'}, 'inventoryType': 3, 'inventoryTags': None, 'inventory': 2, 'inventoryTotal': 2, 'inventoryConsumed': 0, 'inventoryReserved': 0, 'internalReference': 'hej', 'url': 'https://secure.tickster.com/bmxpmev2lhn3ghz?c=atrpkg7'}
+2024-05-22 08:25:50,727 INFO:Sending request for Link-9: URL: https://api.tickster.com/sv/api/0.4/crm/A86XZUHTT37MGBV/campaigns/BUN8NBYK/communications?key=4f07078a24ee683d, Payload: {'name': 'Link-9', 'communicationType': 1, 'eventId': 'BMXPMEV2LHN3GHZ', 'inventoryType': 3, 'inventory': 2, 'inventoryTags': 'hej', 'internalreference': 'hej'}, Headers: {'Content-Type': 'application/json'}, Auth: (rydestahl.test, ************)
+2024-05-22 08:25:50,728 INFO:Response status code for Link-9: 200
+2024-05-22 08:25:50,728 INFO:Response text for Link-9: {
+  "id": "2TERW2Z",
+  "name": "Link-9",
+  "communicationType": 1,
+  "campaign": {
+    "id": "BUN8NBYK",
+    "name": "nytt test"
+  },
+  "event": {
+    "id": "BMXPMEV2LHN3GHZ",
+    "name": "Evenemang till kampanjAPI"
+  },
+  "inventoryType": 3,
+  "inventoryTags": null,
+  "inventory": 2,
+  "inventoryTotal": 2,
+  "inventoryConsumed": 0,
+  "inventoryReserved": 0,
+  "internalReference": "hej",
+  "url": "https://secure.tickster.com/bmxpmev2lhn3ghz?c=2terw2z"
+}
+2024-05-22 08:25:50,728 INFO:Received JSON response for Link-9: {'id': '2TERW2Z', 'name': 'Link-9', 'communicationType': 1, 'campaign': {'id': 'BUN8NBYK', 'name': 'nytt test'}, 'event': {'id': 'BMXPMEV2LHN3GHZ', 'name': 'Evenemang till kampanjAPI'}, 'inventoryType': 3, 'inventoryTags': None, 'inventory': 2, 'inventoryTotal': 2, 'inventoryConsumed': 0, 'inventoryReserved': 0, 'internalReference': 'hej', 'url': 'https://secure.tickster.com/bmxpmev2lhn3ghz?c=2terw2z'}
+2024-05-22 08:25:51,267 INFO:Sending request for Link-10: URL: https://api.tickster.com/sv/api/0.4/crm/A86XZUHTT37MGBV/campaigns/BUN8NBYK/communications?key=4f07078a24ee683d, Payload: {'name': 'Link-10', 'communicationType': 1, 'eventId': 'BMXPMEV2LHN3GHZ', 'inventoryType': 3, 'inventory': 2, 'inventoryTags': 'hej', 'internalreference': 'hej'}, Headers: {'Content-Type': 'application/json'}, Auth: (rydestahl.test, ************)
+2024-05-22 08:25:51,267 INFO:Response status code for Link-10: 200
+2024-05-22 08:25:51,267 INFO:Response text for Link-10: {
+  "id": "UK6AX39",
+  "name": "Link-10",
+  "communicationType": 1,
+  "campaign": {
+    "id": "BUN8NBYK",
+    "name": "nytt test"
+  },
+  "event": {
+    "id": "BMXPMEV2LHN3GHZ",
+    "name": "Evenemang till kampanjAPI"
+  },
+  "inventoryType": 3,
+  "inventoryTags": null,
+  "inventory": 2,
+  "inventoryTotal": 2,
+  "inventoryConsumed": 0,
+  "inventoryReserved": 0,
+  "internalReference": "hej",
+  "url": "https://secure.tickster.com/bmxpmev2lhn3ghz?c=uk6ax39"
+}
+2024-05-22 08:25:51,268 INFO:Received JSON response for Link-10: {'id': 'UK6AX39', 'name': 'Link-10', 'communicationType': 1, 'campaign': {'id': 'BUN8NBYK', 'name': 'nytt test'}, 'event': {'id': 'BMXPMEV2LHN3GHZ', 'name': 'Evenemang till kampanjAPI'}, 'inventoryType': 3, 'inventoryTags': None, 'inventory': 2, 'inventoryTotal': 2, 'inventoryConsumed': 0, 'inventoryReserved': 0, 'internalReference': 'hej', 'url': 'https://secure.tickster.com/bmxpmev2lhn3ghz?c=uk6ax39'}
+2024-05-22 08:25:51,875 INFO:Sending request for Link-11: URL: https://api.tickster.com/sv/api/0.4/crm/A86XZUHTT37MGBV/campaigns/BUN8NBYK/communications?key=4f07078a24ee683d, Payload: {'name': 'Link-11', 'communicationType': 1, 'eventId': 'BMXPMEV2LHN3GHZ', 'inventoryType': 3, 'inventory': 2, 'inventoryTags': 'hej', 'internalreference': 'hej'}, Headers: {'Content-Type': 'application/json'}, Auth: (rydestahl.test, ************)
+2024-05-22 08:25:51,875 INFO:Response status code for Link-11: 200
+2024-05-22 08:25:51,875 INFO:Response text for Link-11: {
+  "id": "1BBN1PY",
+  "name": "Link-11",
+  "communicationType": 1,
+  "campaign": {
+    "id": "BUN8NBYK",
+    "name": "nytt test"
+  },
+  "event": {
+    "id": "BMXPMEV2LHN3GHZ",
+    "name": "Evenemang till kampanjAPI"
+  },
+  "inventoryType": 3,
+  "inventoryTags": null,
+  "inventory": 2,
+  "inventoryTotal": 2,
+  "inventoryConsumed": 0,
+  "inventoryReserved": 0,
+  "internalReference": "hej",
+  "url": "https://secure.tickster.com/bmxpmev2lhn3ghz?c=1bbn1py"
+}
+2024-05-22 08:25:51,875 INFO:Received JSON response for Link-11: {'id': '1BBN1PY', 'name': 'Link-11', 'communicationType': 1, 'campaign': {'id': 'BUN8NBYK', 'name': 'nytt test'}, 'event': {'id': 'BMXPMEV2LHN3GHZ', 'name': 'Evenemang till kampanjAPI'}, 'inventoryType': 3, 'inventoryTags': None, 'inventory': 2, 'inventoryTotal': 2, 'inventoryConsumed': 0, 'inventoryReserved': 0, 'internalReference': 'hej', 'url': 'https://secure.tickster.com/bmxpmev2lhn3ghz?c=1bbn1py'}
+2024-05-22 08:25:52,442 INFO:Sending request for Link-12: URL: https://api.tickster.com/sv/api/0.4/crm/A86XZUHTT37MGBV/campaigns/BUN8NBYK/communications?key=4f07078a24ee683d, Payload: {'name': 'Link-12', 'communicationType': 1, 'eventId': 'BMXPMEV2LHN3GHZ', 'inventoryType': 3, 'inventory': 2, 'inventoryTags': 'hej', 'internalreference': 'hej'}, Headers: {'Content-Type': 'application/json'}, Auth: (rydestahl.test, ************)
+2024-05-22 08:25:52,443 INFO:Response status code for Link-12: 200
+2024-05-22 08:25:52,443 INFO:Response text for Link-12: {
+  "id": "76N3A1K",
+  "name": "Link-12",
+  "communicationType": 1,
+  "campaign": {
+    "id": "BUN8NBYK",
+    "name": "nytt test"
+  },
+  "event": {
+    "id": "BMXPMEV2LHN3GHZ",
+    "name": "Evenemang till kampanjAPI"
+  },
+  "inventoryType": 3,
+  "inventoryTags": null,
+  "inventory": 2,
+  "inventoryTotal": 2,
+  "inventoryConsumed": 0,
+  "inventoryReserved": 0,
+  "internalReference": "hej",
+  "url": "https://secure.tickster.com/bmxpmev2lhn3ghz?c=76n3a1k"
+}
+2024-05-22 08:25:52,443 INFO:Received JSON response for Link-12: {'id': '76N3A1K', 'name': 'Link-12', 'communicationType': 1, 'campaign': {'id': 'BUN8NBYK', 'name': 'nytt test'}, 'event': {'id': 'BMXPMEV2LHN3GHZ', 'name': 'Evenemang till kampanjAPI'}, 'inventoryType': 3, 'inventoryTags': None, 'inventory': 2, 'inventoryTotal': 2, 'inventoryConsumed': 0, 'inventoryReserved': 0, 'internalReference': 'hej', 'url': 'https://secure.tickster.com/bmxpmev2lhn3ghz?c=76n3a1k'}
+2024-05-22 08:25:52,985 INFO:Sending request for Link-13: URL: https://api.tickster.com/sv/api/0.4/crm/A86XZUHTT37MGBV/campaigns/BUN8NBYK/communications?key=4f07078a24ee683d, Payload: {'name': 'Link-13', 'communicationType': 1, 'eventId': 'BMXPMEV2LHN3GHZ', 'inventoryType': 3, 'inventory': 2, 'inventoryTags': 'hej', 'internalreference': 'hej'}, Headers: {'Content-Type': 'application/json'}, Auth: (rydestahl.test, ************)
+2024-05-22 08:25:52,985 INFO:Response status code for Link-13: 200
+2024-05-22 08:25:52,986 INFO:Response text for Link-13: {
+  "id": "CA3VE2P",
+  "name": "Link-13",
+  "communicationType": 1,
+  "campaign": {
+    "id": "BUN8NBYK",
+    "name": "nytt test"
+  },
+  "event": {
+    "id": "BMXPMEV2LHN3GHZ",
+    "name": "Evenemang till kampanjAPI"
+  },
+  "inventoryType": 3,
+  "inventoryTags": null,
+  "inventory": 2,
+  "inventoryTotal": 2,
+  "inventoryConsumed": 0,
+  "inventoryReserved": 0,
+  "internalReference": "hej",
+  "url": "https://secure.tickster.com/bmxpmev2lhn3ghz?c=ca3ve2p"
+}
+2024-05-22 08:25:52,986 INFO:Received JSON response for Link-13: {'id': 'CA3VE2P', 'name': 'Link-13', 'communicationType': 1, 'campaign': {'id': 'BUN8NBYK', 'name': 'nytt test'}, 'event': {'id': 'BMXPMEV2LHN3GHZ', 'name': 'Evenemang till kampanjAPI'}, 'inventoryType': 3, 'inventoryTags': None, 'inventory': 2, 'inventoryTotal': 2, 'inventoryConsumed': 0, 'inventoryReserved': 0, 'internalReference': 'hej', 'url': 'https://secure.tickster.com/bmxpmev2lhn3ghz?c=ca3ve2p'}
+2024-05-22 08:25:53,531 INFO:Sending request for Link-14: URL: https://api.tickster.com/sv/api/0.4/crm/A86XZUHTT37MGBV/campaigns/BUN8NBYK/communications?key=4f07078a24ee683d, Payload: {'name': 'Link-14', 'communicationType': 1, 'eventId': 'BMXPMEV2LHN3GHZ', 'inventoryType': 3, 'inventory': 2, 'inventoryTags': 'hej', 'internalreference': 'hej'}, Headers: {'Content-Type': 'application/json'}, Auth: (rydestahl.test, ************)
+2024-05-22 08:25:53,531 INFO:Response status code for Link-14: 200
+2024-05-22 08:25:53,531 INFO:Response text for Link-14: {
+  "id": "36YXKDG",
+  "name": "Link-14",
+  "communicationType": 1,
+  "campaign": {
+    "id": "BUN8NBYK",
+    "name": "nytt test"
+  },
+  "event": {
+    "id": "BMXPMEV2LHN3GHZ",
+    "name": "Evenemang till kampanjAPI"
+  },
+  "inventoryType": 3,
+  "inventoryTags": null,
+  "inventory": 2,
+  "inventoryTotal": 2,
+  "inventoryConsumed": 0,
+  "inventoryReserved": 0,
+  "internalReference": "hej",
+  "url": "https://secure.tickster.com/bmxpmev2lhn3ghz?c=36yxkdg"
+}
+2024-05-22 08:25:53,532 INFO:Received JSON response for Link-14: {'id': '36YXKDG', 'name': 'Link-14', 'communicationType': 1, 'campaign': {'id': 'BUN8NBYK', 'name': 'nytt test'}, 'event': {'id': 'BMXPMEV2LHN3GHZ', 'name': 'Evenemang till kampanjAPI'}, 'inventoryType': 3, 'inventoryTags': None, 'inventory': 2, 'inventoryTotal': 2, 'inventoryConsumed': 0, 'inventoryReserved': 0, 'internalReference': 'hej', 'url': 'https://secure.tickster.com/bmxpmev2lhn3ghz?c=36yxkdg'}
+2024-05-22 08:25:54,126 INFO:Sending request for Link-15: URL: https://api.tickster.com/sv/api/0.4/crm/A86XZUHTT37MGBV/campaigns/BUN8NBYK/communications?key=4f07078a24ee683d, Payload: {'name': 'Link-15', 'communicationType': 1, 'eventId': 'BMXPMEV2LHN3GHZ', 'inventoryType': 3, 'inventory': 2, 'inventoryTags': 'hej', 'internalreference': 'hej'}, Headers: {'Content-Type': 'application/json'}, Auth: (rydestahl.test, ************)
+2024-05-22 08:25:54,127 INFO:Response status code for Link-15: 200
+2024-05-22 08:25:54,127 INFO:Response text for Link-15: {
+  "id": "BR1DTHW",
+  "name": "Link-15",
+  "communicationType": 1,
+  "campaign": {
+    "id": "BUN8NBYK",
+    "name": "nytt test"
+  },
+  "event": {
+    "id": "BMXPMEV2LHN3GHZ",
+    "name": "Evenemang till kampanjAPI"
+  },
+  "inventoryType": 3,
+  "inventoryTags": null,
+  "inventory": 2,
+  "inventoryTotal": 2,
+  "inventoryConsumed": 0,
+  "inventoryReserved": 0,
+  "internalReference": "hej",
+  "url": "https://secure.tickster.com/bmxpmev2lhn3ghz?c=br1dthw"
+}
+2024-05-22 08:25:54,127 INFO:Received JSON response for Link-15: {'id': 'BR1DTHW', 'name': 'Link-15', 'communicationType': 1, 'campaign': {'id': 'BUN8NBYK', 'name': 'nytt test'}, 'event': {'id': 'BMXPMEV2LHN3GHZ', 'name': 'Evenemang till kampanjAPI'}, 'inventoryType': 3, 'inventoryTags': None, 'inventory': 2, 'inventoryTotal': 2, 'inventoryConsumed': 0, 'inventoryReserved': 0, 'internalReference': 'hej', 'url': 'https://secure.tickster.com/bmxpmev2lhn3ghz?c=br1dthw'}
+2024-05-22 08:25:54,166 INFO:127.0.0.1 - - [22/May/2024 08:25:54] "POST / HTTP/1.1" 200 -
+2024-05-22 08:35:43,454 INFO: * Detected change in 'C:\\Users\\christoffer.rydestah\\Documents\\Repos\\CampaignApp\\webbapp.py', reloading
+2024-05-22 08:35:43,571 INFO: * Restarting with stat
+2024-05-22 08:36:15,041 INFO:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-05-22 08:36:15,041 INFO:[33mPress CTRL+C to quit[0m
+2024-05-22 08:36:15,041 INFO: * Restarting with stat
+2024-05-22 08:36:16,149 WARNING: * Debugger is active!
+2024-05-22 08:36:16,156 INFO: * Debugger PIN: 524-106-737
+2024-05-22 08:36:19,317 INFO:127.0.0.1 - - [22/May/2024 08:36:19] "GET / HTTP/1.1" 200 -
+2024-05-22 08:36:19,597 INFO:127.0.0.1 - - [22/May/2024 08:36:19] "GET /socket.io/?EIO=4&transport=polling&t=O-V0zK6 HTTP/1.1" 200 -
+2024-05-22 08:36:19,611 INFO:127.0.0.1 - - [22/May/2024 08:36:19] "POST /socket.io/?EIO=4&transport=polling&t=O-V0zKO&sid=XQHK29kQjF5BSJSzAAAA HTTP/1.1" 200 -
+2024-05-22 08:36:19,621 INFO:127.0.0.1 - - [22/May/2024 08:36:19] "GET /socket.io/?EIO=4&transport=polling&t=O-V0zKR&sid=XQHK29kQjF5BSJSzAAAA HTTP/1.1" 200 -
+2024-05-22 08:37:16,317 INFO:127.0.0.1 - - [22/May/2024 08:37:16] "GET /socket.io/?EIO=4&transport=websocket&sid=XQHK29kQjF5BSJSzAAAA HTTP/1.1" 200 -
+2024-05-22 08:37:17,407 INFO:Sending request for Link-1: URL: https://api.tickster.com/sv/api/0.4/crm/A86XZUHTT37MGBV/campaigns/BUN8NBYK/communications?key=4f07078a24ee683d, Payload: {'name': 'Link-1', 'communicationType': 1, 'eventId': 'BMXPMEV2LHN3GHZ', 'inventoryType': 3, 'inventory': 2, 'inventoryTags': 'hej', 'internalreference': 'geh'}, Headers: {'Content-Type': 'application/json'}, Auth: (rydestahl.test, ************)
+2024-05-22 08:37:17,407 INFO:Response status code for Link-1: 200
+2024-05-22 08:37:17,407 INFO:Response text for Link-1: {
+  "id": "6VK45V5",
+  "name": "Link-1",
+  "communicationType": 1,
+  "campaign": {
+    "id": "BUN8NBYK",
+    "name": "nytt test"
+  },
+  "event": {
+    "id": "BMXPMEV2LHN3GHZ",
+    "name": "Evenemang till kampanjAPI"
+  },
+  "inventoryType": 3,
+  "inventoryTags": null,
+  "inventory": 2,
+  "inventoryTotal": 2,
+  "inventoryConsumed": 0,
+  "inventoryReserved": 0,
+  "internalReference": "geh",
+  "url": "https://secure.tickster.com/bmxpmev2lhn3ghz?c=6vk45v5"
+}
+2024-05-22 08:37:17,408 INFO:Received JSON response for Link-1: {'id': '6VK45V5', 'name': 'Link-1', 'communicationType': 1, 'campaign': {'id': 'BUN8NBYK', 'name': 'nytt test'}, 'event': {'id': 'BMXPMEV2LHN3GHZ', 'name': 'Evenemang till kampanjAPI'}, 'inventoryType': 3, 'inventoryTags': None, 'inventory': 2, 'inventoryTotal': 2, 'inventoryConsumed': 0, 'inventoryReserved': 0, 'internalReference': 'geh', 'url': 'https://secure.tickster.com/bmxpmev2lhn3ghz?c=6vk45v5'}
+2024-05-22 08:37:18,063 INFO:Sending request for Link-2: URL: https://api.tickster.com/sv/api/0.4/crm/A86XZUHTT37MGBV/campaigns/BUN8NBYK/communications?key=4f07078a24ee683d, Payload: {'name': 'Link-2', 'communicationType': 1, 'eventId': 'BMXPMEV2LHN3GHZ', 'inventoryType': 3, 'inventory': 2, 'inventoryTags': 'hej', 'internalreference': 'geh'}, Headers: {'Content-Type': 'application/json'}, Auth: (rydestahl.test, ************)
+2024-05-22 08:37:18,063 INFO:Response status code for Link-2: 200
+2024-05-22 08:37:18,063 INFO:Response text for Link-2: {
+  "id": "L47XKDW",
+  "name": "Link-2",
+  "communicationType": 1,
+  "campaign": {
+    "id": "BUN8NBYK",
+    "name": "nytt test"
+  },
+  "event": {
+    "id": "BMXPMEV2LHN3GHZ",
+    "name": "Evenemang till kampanjAPI"
+  },
+  "inventoryType": 3,
+  "inventoryTags": null,
+  "inventory": 2,
+  "inventoryTotal": 2,
+  "inventoryConsumed": 0,
+  "inventoryReserved": 0,
+  "internalReference": "geh",
+  "url": "https://secure.tickster.com/bmxpmev2lhn3ghz?c=l47xkdw"
+}
+2024-05-22 08:37:18,065 INFO:Received JSON response for Link-2: {'id': 'L47XKDW', 'name': 'Link-2', 'communicationType': 1, 'campaign': {'id': 'BUN8NBYK', 'name': 'nytt test'}, 'event': {'id': 'BMXPMEV2LHN3GHZ', 'name': 'Evenemang till kampanjAPI'}, 'inventoryType': 3, 'inventoryTags': None, 'inventory': 2, 'inventoryTotal': 2, 'inventoryConsumed': 0, 'inventoryReserved': 0, 'internalReference': 'geh', 'url': 'https://secure.tickster.com/bmxpmev2lhn3ghz?c=l47xkdw'}
+2024-05-22 08:37:18,693 INFO:Sending request for Link-3: URL: https://api.tickster.com/sv/api/0.4/crm/A86XZUHTT37MGBV/campaigns/BUN8NBYK/communications?key=4f07078a24ee683d, Payload: {'name': 'Link-3', 'communicationType': 1, 'eventId': 'BMXPMEV2LHN3GHZ', 'inventoryType': 3, 'inventory': 2, 'inventoryTags': 'hej', 'internalreference': 'geh'}, Headers: {'Content-Type': 'application/json'}, Auth: (rydestahl.test, ************)
+2024-05-22 08:37:18,693 INFO:Response status code for Link-3: 200
+2024-05-22 08:37:18,693 INFO:Response text for Link-3: {
+  "id": "KDKRGGJ",
+  "name": "Link-3",
+  "communicationType": 1,
+  "campaign": {
+    "id": "BUN8NBYK",
+    "name": "nytt test"
+  },
+  "event": {
+    "id": "BMXPMEV2LHN3GHZ",
+    "name": "Evenemang till kampanjAPI"
+  },
+  "inventoryType": 3,
+  "inventoryTags": null,
+  "inventory": 2,
+  "inventoryTotal": 2,
+  "inventoryConsumed": 0,
+  "inventoryReserved": 0,
+  "internalReference": "geh",
+  "url": "https://secure.tickster.com/bmxpmev2lhn3ghz?c=kdkrggj"
+}
+2024-05-22 08:37:18,693 INFO:Received JSON response for Link-3: {'id': 'KDKRGGJ', 'name': 'Link-3', 'communicationType': 1, 'campaign': {'id': 'BUN8NBYK', 'name': 'nytt test'}, 'event': {'id': 'BMXPMEV2LHN3GHZ', 'name': 'Evenemang till kampanjAPI'}, 'inventoryType': 3, 'inventoryTags': None, 'inventory': 2, 'inventoryTotal': 2, 'inventoryConsumed': 0, 'inventoryReserved': 0, 'internalReference': 'geh', 'url': 'https://secure.tickster.com/bmxpmev2lhn3ghz?c=kdkrggj'}
+2024-05-22 08:37:19,322 INFO:Sending request for Link-4: URL: https://api.tickster.com/sv/api/0.4/crm/A86XZUHTT37MGBV/campaigns/BUN8NBYK/communications?key=4f07078a24ee683d, Payload: {'name': 'Link-4', 'communicationType': 1, 'eventId': 'BMXPMEV2LHN3GHZ', 'inventoryType': 3, 'inventory': 2, 'inventoryTags': 'hej', 'internalreference': 'geh'}, Headers: {'Content-Type': 'application/json'}, Auth: (rydestahl.test, ************)
+2024-05-22 08:37:19,322 INFO:Response status code for Link-4: 200
+2024-05-22 08:37:19,322 INFO:Response text for Link-4: {
+  "id": "BPZ38LP",
+  "name": "Link-4",
+  "communicationType": 1,
+  "campaign": {
+    "id": "BUN8NBYK",
+    "name": "nytt test"
+  },
+  "event": {
+    "id": "BMXPMEV2LHN3GHZ",
+    "name": "Evenemang till kampanjAPI"
+  },
+  "inventoryType": 3,
+  "inventoryTags": null,
+  "inventory": 2,
+  "inventoryTotal": 2,
+  "inventoryConsumed": 0,
+  "inventoryReserved": 0,
+  "internalReference": "geh",
+  "url": "https://secure.tickster.com/bmxpmev2lhn3ghz?c=bpz38lp"
+}
+2024-05-22 08:37:19,322 INFO:Received JSON response for Link-4: {'id': 'BPZ38LP', 'name': 'Link-4', 'communicationType': 1, 'campaign': {'id': 'BUN8NBYK', 'name': 'nytt test'}, 'event': {'id': 'BMXPMEV2LHN3GHZ', 'name': 'Evenemang till kampanjAPI'}, 'inventoryType': 3, 'inventoryTags': None, 'inventory': 2, 'inventoryTotal': 2, 'inventoryConsumed': 0, 'inventoryReserved': 0, 'internalReference': 'geh', 'url': 'https://secure.tickster.com/bmxpmev2lhn3ghz?c=bpz38lp'}
+2024-05-22 08:37:19,940 INFO:Sending request for Link-5: URL: https://api.tickster.com/sv/api/0.4/crm/A86XZUHTT37MGBV/campaigns/BUN8NBYK/communications?key=4f07078a24ee683d, Payload: {'name': 'Link-5', 'communicationType': 1, 'eventId': 'BMXPMEV2LHN3GHZ', 'inventoryType': 3, 'inventory': 2, 'inventoryTags': 'hej', 'internalreference': 'geh'}, Headers: {'Content-Type': 'application/json'}, Auth: (rydestahl.test, ************)
+2024-05-22 08:37:19,940 INFO:Response status code for Link-5: 200
+2024-05-22 08:37:19,940 INFO:Response text for Link-5: {
+  "id": "32NAW0N",
+  "name": "Link-5",
+  "communicationType": 1,
+  "campaign": {
+    "id": "BUN8NBYK",
+    "name": "nytt test"
+  },
+  "event": {
+    "id": "BMXPMEV2LHN3GHZ",
+    "name": "Evenemang till kampanjAPI"
+  },
+  "inventoryType": 3,
+  "inventoryTags": null,
+  "inventory": 2,
+  "inventoryTotal": 2,
+  "inventoryConsumed": 0,
+  "inventoryReserved": 0,
+  "internalReference": "geh",
+  "url": "https://secure.tickster.com/bmxpmev2lhn3ghz?c=32naw0n"
+}
+2024-05-22 08:37:19,940 INFO:Received JSON response for Link-5: {'id': '32NAW0N', 'name': 'Link-5', 'communicationType': 1, 'campaign': {'id': 'BUN8NBYK', 'name': 'nytt test'}, 'event': {'id': 'BMXPMEV2LHN3GHZ', 'name': 'Evenemang till kampanjAPI'}, 'inventoryType': 3, 'inventoryTags': None, 'inventory': 2, 'inventoryTotal': 2, 'inventoryConsumed': 0, 'inventoryReserved': 0, 'internalReference': 'geh', 'url': 'https://secure.tickster.com/bmxpmev2lhn3ghz?c=32naw0n'}
+2024-05-22 08:37:20,642 INFO:Sending request for Link-6: URL: https://api.tickster.com/sv/api/0.4/crm/A86XZUHTT37MGBV/campaigns/BUN8NBYK/communications?key=4f07078a24ee683d, Payload: {'name': 'Link-6', 'communicationType': 1, 'eventId': 'BMXPMEV2LHN3GHZ', 'inventoryType': 3, 'inventory': 2, 'inventoryTags': 'hej', 'internalreference': 'geh'}, Headers: {'Content-Type': 'application/json'}, Auth: (rydestahl.test, ************)
+2024-05-22 08:37:20,642 INFO:Response status code for Link-6: 200
+2024-05-22 08:37:20,643 INFO:Response text for Link-6: {
+  "id": "1N4T5CT",
+  "name": "Link-6",
+  "communicationType": 1,
+  "campaign": {
+    "id": "BUN8NBYK",
+    "name": "nytt test"
+  },
+  "event": {
+    "id": "BMXPMEV2LHN3GHZ",
+    "name": "Evenemang till kampanjAPI"
+  },
+  "inventoryType": 3,
+  "inventoryTags": null,
+  "inventory": 2,
+  "inventoryTotal": 2,
+  "inventoryConsumed": 0,
+  "inventoryReserved": 0,
+  "internalReference": "geh",
+  "url": "https://secure.tickster.com/bmxpmev2lhn3ghz?c=1n4t5ct"
+}
+2024-05-22 08:37:20,643 INFO:Received JSON response for Link-6: {'id': '1N4T5CT', 'name': 'Link-6', 'communicationType': 1, 'campaign': {'id': 'BUN8NBYK', 'name': 'nytt test'}, 'event': {'id': 'BMXPMEV2LHN3GHZ', 'name': 'Evenemang till kampanjAPI'}, 'inventoryType': 3, 'inventoryTags': None, 'inventory': 2, 'inventoryTotal': 2, 'inventoryConsumed': 0, 'inventoryReserved': 0, 'internalReference': 'geh', 'url': 'https://secure.tickster.com/bmxpmev2lhn3ghz?c=1n4t5ct'}
+2024-05-22 08:37:21,265 INFO:Sending request for Link-7: URL: https://api.tickster.com/sv/api/0.4/crm/A86XZUHTT37MGBV/campaigns/BUN8NBYK/communications?key=4f07078a24ee683d, Payload: {'name': 'Link-7', 'communicationType': 1, 'eventId': 'BMXPMEV2LHN3GHZ', 'inventoryType': 3, 'inventory': 2, 'inventoryTags': 'hej', 'internalreference': 'geh'}, Headers: {'Content-Type': 'application/json'}, Auth: (rydestahl.test, ************)
+2024-05-22 08:37:21,265 INFO:Response status code for Link-7: 200
+2024-05-22 08:37:21,265 INFO:Response text for Link-7: {
+  "id": "FM6R4WZ",
+  "name": "Link-7",
+  "communicationType": 1,
+  "campaign": {
+    "id": "BUN8NBYK",
+    "name": "nytt test"
+  },
+  "event": {
+    "id": "BMXPMEV2LHN3GHZ",
+    "name": "Evenemang till kampanjAPI"
+  },
+  "inventoryType": 3,
+  "inventoryTags": null,
+  "inventory": 2,
+  "inventoryTotal": 2,
+  "inventoryConsumed": 0,
+  "inventoryReserved": 0,
+  "internalReference": "geh",
+  "url": "https://secure.tickster.com/bmxpmev2lhn3ghz?c=fm6r4wz"
+}
+2024-05-22 08:37:21,265 INFO:Received JSON response for Link-7: {'id': 'FM6R4WZ', 'name': 'Link-7', 'communicationType': 1, 'campaign': {'id': 'BUN8NBYK', 'name': 'nytt test'}, 'event': {'id': 'BMXPMEV2LHN3GHZ', 'name': 'Evenemang till kampanjAPI'}, 'inventoryType': 3, 'inventoryTags': None, 'inventory': 2, 'inventoryTotal': 2, 'inventoryConsumed': 0, 'inventoryReserved': 0, 'internalReference': 'geh', 'url': 'https://secure.tickster.com/bmxpmev2lhn3ghz?c=fm6r4wz'}
+2024-05-22 08:37:21,880 INFO:Sending request for Link-8: URL: https://api.tickster.com/sv/api/0.4/crm/A86XZUHTT37MGBV/campaigns/BUN8NBYK/communications?key=4f07078a24ee683d, Payload: {'name': 'Link-8', 'communicationType': 1, 'eventId': 'BMXPMEV2LHN3GHZ', 'inventoryType': 3, 'inventory': 2, 'inventoryTags': 'hej', 'internalreference': 'geh'}, Headers: {'Content-Type': 'application/json'}, Auth: (rydestahl.test, ************)
+2024-05-22 08:37:21,880 INFO:Response status code for Link-8: 200
+2024-05-22 08:37:21,881 INFO:Response text for Link-8: {
+  "id": "D865ABX",
+  "name": "Link-8",
+  "communicationType": 1,
+  "campaign": {
+    "id": "BUN8NBYK",
+    "name": "nytt test"
+  },
+  "event": {
+    "id": "BMXPMEV2LHN3GHZ",
+    "name": "Evenemang till kampanjAPI"
+  },
+  "inventoryType": 3,
+  "inventoryTags": null,
+  "inventory": 2,
+  "inventoryTotal": 2,
+  "inventoryConsumed": 0,
+  "inventoryReserved": 0,
+  "internalReference": "geh",
+  "url": "https://secure.tickster.com/bmxpmev2lhn3ghz?c=d865abx"
+}
+2024-05-22 08:37:21,881 INFO:Received JSON response for Link-8: {'id': 'D865ABX', 'name': 'Link-8', 'communicationType': 1, 'campaign': {'id': 'BUN8NBYK', 'name': 'nytt test'}, 'event': {'id': 'BMXPMEV2LHN3GHZ', 'name': 'Evenemang till kampanjAPI'}, 'inventoryType': 3, 'inventoryTags': None, 'inventory': 2, 'inventoryTotal': 2, 'inventoryConsumed': 0, 'inventoryReserved': 0, 'internalReference': 'geh', 'url': 'https://secure.tickster.com/bmxpmev2lhn3ghz?c=d865abx'}
+2024-05-22 08:37:22,494 INFO:Sending request for Link-9: URL: https://api.tickster.com/sv/api/0.4/crm/A86XZUHTT37MGBV/campaigns/BUN8NBYK/communications?key=4f07078a24ee683d, Payload: {'name': 'Link-9', 'communicationType': 1, 'eventId': 'BMXPMEV2LHN3GHZ', 'inventoryType': 3, 'inventory': 2, 'inventoryTags': 'hej', 'internalreference': 'geh'}, Headers: {'Content-Type': 'application/json'}, Auth: (rydestahl.test, ************)
+2024-05-22 08:37:22,494 INFO:Response status code for Link-9: 200
+2024-05-22 08:37:22,494 INFO:Response text for Link-9: {
+  "id": "PNHCPAP",
+  "name": "Link-9",
+  "communicationType": 1,
+  "campaign": {
+    "id": "BUN8NBYK",
+    "name": "nytt test"
+  },
+  "event": {
+    "id": "BMXPMEV2LHN3GHZ",
+    "name": "Evenemang till kampanjAPI"
+  },
+  "inventoryType": 3,
+  "inventoryTags": null,
+  "inventory": 2,
+  "inventoryTotal": 2,
+  "inventoryConsumed": 0,
+  "inventoryReserved": 0,
+  "internalReference": "geh",
+  "url": "https://secure.tickster.com/bmxpmev2lhn3ghz?c=pnhcpap"
+}
+2024-05-22 08:37:22,494 INFO:Received JSON response for Link-9: {'id': 'PNHCPAP', 'name': 'Link-9', 'communicationType': 1, 'campaign': {'id': 'BUN8NBYK', 'name': 'nytt test'}, 'event': {'id': 'BMXPMEV2LHN3GHZ', 'name': 'Evenemang till kampanjAPI'}, 'inventoryType': 3, 'inventoryTags': None, 'inventory': 2, 'inventoryTotal': 2, 'inventoryConsumed': 0, 'inventoryReserved': 0, 'internalReference': 'geh', 'url': 'https://secure.tickster.com/bmxpmev2lhn3ghz?c=pnhcpap'}
+2024-05-22 08:37:23,138 INFO:Sending request for Link-10: URL: https://api.tickster.com/sv/api/0.4/crm/A86XZUHTT37MGBV/campaigns/BUN8NBYK/communications?key=4f07078a24ee683d, Payload: {'name': 'Link-10', 'communicationType': 1, 'eventId': 'BMXPMEV2LHN3GHZ', 'inventoryType': 3, 'inventory': 2, 'inventoryTags': 'hej', 'internalreference': 'geh'}, Headers: {'Content-Type': 'application/json'}, Auth: (rydestahl.test, ************)
+2024-05-22 08:37:23,138 INFO:Response status code for Link-10: 200
+2024-05-22 08:37:23,138 INFO:Response text for Link-10: {
+  "id": "ENPLJ19",
+  "name": "Link-10",
+  "communicationType": 1,
+  "campaign": {
+    "id": "BUN8NBYK",
+    "name": "nytt test"
+  },
+  "event": {
+    "id": "BMXPMEV2LHN3GHZ",
+    "name": "Evenemang till kampanjAPI"
+  },
+  "inventoryType": 3,
+  "inventoryTags": null,
+  "inventory": 2,
+  "inventoryTotal": 2,
+  "inventoryConsumed": 0,
+  "inventoryReserved": 0,
+  "internalReference": "geh",
+  "url": "https://secure.tickster.com/bmxpmev2lhn3ghz?c=enplj19"
+}
+2024-05-22 08:37:23,138 INFO:Received JSON response for Link-10: {'id': 'ENPLJ19', 'name': 'Link-10', 'communicationType': 1, 'campaign': {'id': 'BUN8NBYK', 'name': 'nytt test'}, 'event': {'id': 'BMXPMEV2LHN3GHZ', 'name': 'Evenemang till kampanjAPI'}, 'inventoryType': 3, 'inventoryTags': None, 'inventory': 2, 'inventoryTotal': 2, 'inventoryConsumed': 0, 'inventoryReserved': 0, 'internalReference': 'geh', 'url': 'https://secure.tickster.com/bmxpmev2lhn3ghz?c=enplj19'}
+2024-05-22 08:37:23,792 INFO:Sending request for Link-11: URL: https://api.tickster.com/sv/api/0.4/crm/A86XZUHTT37MGBV/campaigns/BUN8NBYK/communications?key=4f07078a24ee683d, Payload: {'name': 'Link-11', 'communicationType': 1, 'eventId': 'BMXPMEV2LHN3GHZ', 'inventoryType': 3, 'inventory': 2, 'inventoryTags': 'hej', 'internalreference': 'geh'}, Headers: {'Content-Type': 'application/json'}, Auth: (rydestahl.test, ************)
+2024-05-22 08:37:23,792 INFO:Response status code for Link-11: 200
+2024-05-22 08:37:23,792 INFO:Response text for Link-11: {
+  "id": "NP28785",
+  "name": "Link-11",
+  "communicationType": 1,
+  "campaign": {
+    "id": "BUN8NBYK",
+    "name": "nytt test"
+  },
+  "event": {
+    "id": "BMXPMEV2LHN3GHZ",
+    "name": "Evenemang till kampanjAPI"
+  },
+  "inventoryType": 3,
+  "inventoryTags": null,
+  "inventory": 2,
+  "inventoryTotal": 2,
+  "inventoryConsumed": 0,
+  "inventoryReserved": 0,
+  "internalReference": "geh",
+  "url": "https://secure.tickster.com/bmxpmev2lhn3ghz?c=np28785"
+}
+2024-05-22 08:37:23,792 INFO:Received JSON response for Link-11: {'id': 'NP28785', 'name': 'Link-11', 'communicationType': 1, 'campaign': {'id': 'BUN8NBYK', 'name': 'nytt test'}, 'event': {'id': 'BMXPMEV2LHN3GHZ', 'name': 'Evenemang till kampanjAPI'}, 'inventoryType': 3, 'inventoryTags': None, 'inventory': 2, 'inventoryTotal': 2, 'inventoryConsumed': 0, 'inventoryReserved': 0, 'internalReference': 'geh', 'url': 'https://secure.tickster.com/bmxpmev2lhn3ghz?c=np28785'}
+2024-05-22 08:37:24,441 INFO:Sending request for Link-12: URL: https://api.tickster.com/sv/api/0.4/crm/A86XZUHTT37MGBV/campaigns/BUN8NBYK/communications?key=4f07078a24ee683d, Payload: {'name': 'Link-12', 'communicationType': 1, 'eventId': 'BMXPMEV2LHN3GHZ', 'inventoryType': 3, 'inventory': 2, 'inventoryTags': 'hej', 'internalreference': 'geh'}, Headers: {'Content-Type': 'application/json'}, Auth: (rydestahl.test, ************)
+2024-05-22 08:37:24,441 INFO:Response status code for Link-12: 200
+2024-05-22 08:37:24,441 INFO:Response text for Link-12: {
+  "id": "DR0Y0P4",
+  "name": "Link-12",
+  "communicationType": 1,
+  "campaign": {
+    "id": "BUN8NBYK",
+    "name": "nytt test"
+  },
+  "event": {
+    "id": "BMXPMEV2LHN3GHZ",
+    "name": "Evenemang till kampanjAPI"
+  },
+  "inventoryType": 3,
+  "inventoryTags": null,
+  "inventory": 2,
+  "inventoryTotal": 2,
+  "inventoryConsumed": 0,
+  "inventoryReserved": 0,
+  "internalReference": "geh",
+  "url": "https://secure.tickster.com/bmxpmev2lhn3ghz?c=dr0y0p4"
+}
+2024-05-22 08:37:24,441 INFO:Received JSON response for Link-12: {'id': 'DR0Y0P4', 'name': 'Link-12', 'communicationType': 1, 'campaign': {'id': 'BUN8NBYK', 'name': 'nytt test'}, 'event': {'id': 'BMXPMEV2LHN3GHZ', 'name': 'Evenemang till kampanjAPI'}, 'inventoryType': 3, 'inventoryTags': None, 'inventory': 2, 'inventoryTotal': 2, 'inventoryConsumed': 0, 'inventoryReserved': 0, 'internalReference': 'geh', 'url': 'https://secure.tickster.com/bmxpmev2lhn3ghz?c=dr0y0p4'}
+2024-05-22 08:37:25,058 INFO:Sending request for Link-13: URL: https://api.tickster.com/sv/api/0.4/crm/A86XZUHTT37MGBV/campaigns/BUN8NBYK/communications?key=4f07078a24ee683d, Payload: {'name': 'Link-13', 'communicationType': 1, 'eventId': 'BMXPMEV2LHN3GHZ', 'inventoryType': 3, 'inventory': 2, 'inventoryTags': 'hej', 'internalreference': 'geh'}, Headers: {'Content-Type': 'application/json'}, Auth: (rydestahl.test, ************)
+2024-05-22 08:37:25,058 INFO:Response status code for Link-13: 200
+2024-05-22 08:37:25,058 INFO:Response text for Link-13: {
+  "id": "PR0ZD5M",
+  "name": "Link-13",
+  "communicationType": 1,
+  "campaign": {
+    "id": "BUN8NBYK",
+    "name": "nytt test"
+  },
+  "event": {
+    "id": "BMXPMEV2LHN3GHZ",
+    "name": "Evenemang till kampanjAPI"
+  },
+  "inventoryType": 3,
+  "inventoryTags": null,
+  "inventory": 2,
+  "inventoryTotal": 2,
+  "inventoryConsumed": 0,
+  "inventoryReserved": 0,
+  "internalReference": "geh",
+  "url": "https://secure.tickster.com/bmxpmev2lhn3ghz?c=pr0zd5m"
+}
+2024-05-22 08:37:25,058 INFO:Received JSON response for Link-13: {'id': 'PR0ZD5M', 'name': 'Link-13', 'communicationType': 1, 'campaign': {'id': 'BUN8NBYK', 'name': 'nytt test'}, 'event': {'id': 'BMXPMEV2LHN3GHZ', 'name': 'Evenemang till kampanjAPI'}, 'inventoryType': 3, 'inventoryTags': None, 'inventory': 2, 'inventoryTotal': 2, 'inventoryConsumed': 0, 'inventoryReserved': 0, 'internalReference': 'geh', 'url': 'https://secure.tickster.com/bmxpmev2lhn3ghz?c=pr0zd5m'}
+2024-05-22 08:37:25,676 INFO:Sending request for Link-14: URL: https://api.tickster.com/sv/api/0.4/crm/A86XZUHTT37MGBV/campaigns/BUN8NBYK/communications?key=4f07078a24ee683d, Payload: {'name': 'Link-14', 'communicationType': 1, 'eventId': 'BMXPMEV2LHN3GHZ', 'inventoryType': 3, 'inventory': 2, 'inventoryTags': 'hej', 'internalreference': 'geh'}, Headers: {'Content-Type': 'application/json'}, Auth: (rydestahl.test, ************)
+2024-05-22 08:37:25,676 INFO:Response status code for Link-14: 200
+2024-05-22 08:37:25,676 INFO:Response text for Link-14: {
+  "id": "D4DVCAN",
+  "name": "Link-14",
+  "communicationType": 1,
+  "campaign": {
+    "id": "BUN8NBYK",
+    "name": "nytt test"
+  },
+  "event": {
+    "id": "BMXPMEV2LHN3GHZ",
+    "name": "Evenemang till kampanjAPI"
+  },
+  "inventoryType": 3,
+  "inventoryTags": null,
+  "inventory": 2,
+  "inventoryTotal": 2,
+  "inventoryConsumed": 0,
+  "inventoryReserved": 0,
+  "internalReference": "geh",
+  "url": "https://secure.tickster.com/bmxpmev2lhn3ghz?c=d4dvcan"
+}
+2024-05-22 08:37:25,676 INFO:Received JSON response for Link-14: {'id': 'D4DVCAN', 'name': 'Link-14', 'communicationType': 1, 'campaign': {'id': 'BUN8NBYK', 'name': 'nytt test'}, 'event': {'id': 'BMXPMEV2LHN3GHZ', 'name': 'Evenemang till kampanjAPI'}, 'inventoryType': 3, 'inventoryTags': None, 'inventory': 2, 'inventoryTotal': 2, 'inventoryConsumed': 0, 'inventoryReserved': 0, 'internalReference': 'geh', 'url': 'https://secure.tickster.com/bmxpmev2lhn3ghz?c=d4dvcan'}
+2024-05-22 08:37:26,266 INFO:Sending request for Link-15: URL: https://api.tickster.com/sv/api/0.4/crm/A86XZUHTT37MGBV/campaigns/BUN8NBYK/communications?key=4f07078a24ee683d, Payload: {'name': 'Link-15', 'communicationType': 1, 'eventId': 'BMXPMEV2LHN3GHZ', 'inventoryType': 3, 'inventory': 2, 'inventoryTags': 'hej', 'internalreference': 'geh'}, Headers: {'Content-Type': 'application/json'}, Auth: (rydestahl.test, ************)
+2024-05-22 08:37:26,266 INFO:Response status code for Link-15: 200
+2024-05-22 08:37:26,266 INFO:Response text for Link-15: {
+  "id": "6GTZ212",
+  "name": "Link-15",
+  "communicationType": 1,
+  "campaign": {
+    "id": "BUN8NBYK",
+    "name": "nytt test"
+  },
+  "event": {
+    "id": "BMXPMEV2LHN3GHZ",
+    "name": "Evenemang till kampanjAPI"
+  },
+  "inventoryType": 3,
+  "inventoryTags": null,
+  "inventory": 2,
+  "inventoryTotal": 2,
+  "inventoryConsumed": 0,
+  "inventoryReserved": 0,
+  "internalReference": "geh",
+  "url": "https://secure.tickster.com/bmxpmev2lhn3ghz?c=6gtz212"
+}
+2024-05-22 08:37:26,266 INFO:Received JSON response for Link-15: {'id': '6GTZ212', 'name': 'Link-15', 'communicationType': 1, 'campaign': {'id': 'BUN8NBYK', 'name': 'nytt test'}, 'event': {'id': 'BMXPMEV2LHN3GHZ', 'name': 'Evenemang till kampanjAPI'}, 'inventoryType': 3, 'inventoryTags': None, 'inventory': 2, 'inventoryTotal': 2, 'inventoryConsumed': 0, 'inventoryReserved': 0, 'internalReference': 'geh', 'url': 'https://secure.tickster.com/bmxpmev2lhn3ghz?c=6gtz212'}
+2024-05-22 08:37:26,301 INFO:127.0.0.1 - - [22/May/2024 08:37:26] "POST / HTTP/1.1" 200 -
+2024-05-22 08:37:56,117 INFO:127.0.0.1 - - [22/May/2024 08:37:56] "GET /socket.io/?EIO=4&transport=polling&t=O-V1KuH HTTP/1.1" 200 -
+2024-05-22 08:37:56,128 INFO:127.0.0.1 - - [22/May/2024 08:37:56] "POST /socket.io/?EIO=4&transport=polling&t=O-V1KuO&sid=G0hUZJ_R9d1t7vm3AAAC HTTP/1.1" 200 -
+2024-05-22 08:37:56,128 INFO:127.0.0.1 - - [22/May/2024 08:37:56] "GET /socket.io/?EIO=4&transport=polling&t=O-V1KuP&sid=G0hUZJ_R9d1t7vm3AAAC HTTP/1.1" 200 -
+2024-05-22 08:38:26,767 INFO:127.0.0.1 - - [22/May/2024 08:38:26] "GET /socket.io/?EIO=4&transport=websocket&sid=G0hUZJ_R9d1t7vm3AAAC HTTP/1.1" 200 -
+2024-05-22 08:38:26,822 INFO:127.0.0.1 - - [22/May/2024 08:38:26] "GET / HTTP/1.1" 200 -
+2024-05-22 08:38:27,107 INFO:127.0.0.1 - - [22/May/2024 08:38:27] "GET /socket.io/?EIO=4&transport=polling&t=O-V1SSV HTTP/1.1" 200 -
+2024-05-22 08:38:27,122 INFO:127.0.0.1 - - [22/May/2024 08:38:27] "POST /socket.io/?EIO=4&transport=polling&t=O-V1SSe&sid=QhqX9CKc9svZQv1pAAAE HTTP/1.1" 200 -
+2024-05-22 08:38:27,124 INFO:127.0.0.1 - - [22/May/2024 08:38:27] "GET /socket.io/?EIO=4&transport=polling&t=O-V1SSe.0&sid=QhqX9CKc9svZQv1pAAAE HTTP/1.1" 200 -
+2024-05-22 08:39:12,457 INFO:127.0.0.1 - - [22/May/2024 08:39:12] "GET /socket.io/?EIO=4&transport=websocket&sid=QhqX9CKc9svZQv1pAAAE HTTP/1.1" 200 -
+2024-05-22 08:39:13,160 INFO:Sending request for Link-1: URL: https://api.tickster.com/sv/api/0.4/crm/A86XZUHTT37MGBV/campaigns/BUN8NBYK/communications?key=4f07078a24ee683d, Payload: {'name': 'Link-1', 'communicationType': 1, 'eventId': 'BMXPMEV2LHN3GHZ', 'inventoryType': 3, 'inventory': 2, 'inventoryTags': 'sdfsf', 'internalreference': 'sdfsdfs'}, Headers: {'Content-Type': 'application/json'}, Auth: (rydestahl.test, ************)
+2024-05-22 08:39:13,160 INFO:Response status code for Link-1: 200
+2024-05-22 08:39:13,160 INFO:Response text for Link-1: {
+  "id": "RTUA6PP",
+  "name": "Link-1",
+  "communicationType": 1,
+  "campaign": {
+    "id": "BUN8NBYK",
+    "name": "nytt test"
+  },
+  "event": {
+    "id": "BMXPMEV2LHN3GHZ",
+    "name": "Evenemang till kampanjAPI"
+  },
+  "inventoryType": 3,
+  "inventoryTags": null,
+  "inventory": 2,
+  "inventoryTotal": 2,
+  "inventoryConsumed": 0,
+  "inventoryReserved": 0,
+  "internalReference": "sdfsdfs",
+  "url": "https://secure.tickster.com/bmxpmev2lhn3ghz?c=rtua6pp"
+}
+2024-05-22 08:39:13,160 INFO:Received JSON response for Link-1: {'id': 'RTUA6PP', 'name': 'Link-1', 'communicationType': 1, 'campaign': {'id': 'BUN8NBYK', 'name': 'nytt test'}, 'event': {'id': 'BMXPMEV2LHN3GHZ', 'name': 'Evenemang till kampanjAPI'}, 'inventoryType': 3, 'inventoryTags': None, 'inventory': 2, 'inventoryTotal': 2, 'inventoryConsumed': 0, 'inventoryReserved': 0, 'internalReference': 'sdfsdfs', 'url': 'https://secure.tickster.com/bmxpmev2lhn3ghz?c=rtua6pp'}
+2024-05-22 08:39:13,805 INFO:Sending request for Link-2: URL: https://api.tickster.com/sv/api/0.4/crm/A86XZUHTT37MGBV/campaigns/BUN8NBYK/communications?key=4f07078a24ee683d, Payload: {'name': 'Link-2', 'communicationType': 1, 'eventId': 'BMXPMEV2LHN3GHZ', 'inventoryType': 3, 'inventory': 2, 'inventoryTags': 'sdfsf', 'internalreference': 'sdfsdfs'}, Headers: {'Content-Type': 'application/json'}, Auth: (rydestahl.test, ************)
+2024-05-22 08:39:13,805 INFO:Response status code for Link-2: 200
+2024-05-22 08:39:13,805 INFO:Response text for Link-2: {
+  "id": "33YYF1L",
+  "name": "Link-2",
+  "communicationType": 1,
+  "campaign": {
+    "id": "BUN8NBYK",
+    "name": "nytt test"
+  },
+  "event": {
+    "id": "BMXPMEV2LHN3GHZ",
+    "name": "Evenemang till kampanjAPI"
+  },
+  "inventoryType": 3,
+  "inventoryTags": null,
+  "inventory": 2,
+  "inventoryTotal": 2,
+  "inventoryConsumed": 0,
+  "inventoryReserved": 0,
+  "internalReference": "sdfsdfs",
+  "url": "https://secure.tickster.com/bmxpmev2lhn3ghz?c=33yyf1l"
+}
+2024-05-22 08:39:13,805 INFO:Received JSON response for Link-2: {'id': '33YYF1L', 'name': 'Link-2', 'communicationType': 1, 'campaign': {'id': 'BUN8NBYK', 'name': 'nytt test'}, 'event': {'id': 'BMXPMEV2LHN3GHZ', 'name': 'Evenemang till kampanjAPI'}, 'inventoryType': 3, 'inventoryTags': None, 'inventory': 2, 'inventoryTotal': 2, 'inventoryConsumed': 0, 'inventoryReserved': 0, 'internalReference': 'sdfsdfs', 'url': 'https://secure.tickster.com/bmxpmev2lhn3ghz?c=33yyf1l'}
+2024-05-22 08:39:14,440 INFO:Sending request for Link-3: URL: https://api.tickster.com/sv/api/0.4/crm/A86XZUHTT37MGBV/campaigns/BUN8NBYK/communications?key=4f07078a24ee683d, Payload: {'name': 'Link-3', 'communicationType': 1, 'eventId': 'BMXPMEV2LHN3GHZ', 'inventoryType': 3, 'inventory': 2, 'inventoryTags': 'sdfsf', 'internalreference': 'sdfsdfs'}, Headers: {'Content-Type': 'application/json'}, Auth: (rydestahl.test, ************)
+2024-05-22 08:39:14,440 INFO:Response status code for Link-3: 200
+2024-05-22 08:39:14,440 INFO:Response text for Link-3: {
+  "id": "XD0L48G",
+  "name": "Link-3",
+  "communicationType": 1,
+  "campaign": {
+    "id": "BUN8NBYK",
+    "name": "nytt test"
+  },
+  "event": {
+    "id": "BMXPMEV2LHN3GHZ",
+    "name": "Evenemang till kampanjAPI"
+  },
+  "inventoryType": 3,
+  "inventoryTags": null,
+  "inventory": 2,
+  "inventoryTotal": 2,
+  "inventoryConsumed": 0,
+  "inventoryReserved": 0,
+  "internalReference": "sdfsdfs",
+  "url": "https://secure.tickster.com/bmxpmev2lhn3ghz?c=xd0l48g"
+}
+2024-05-22 08:39:14,440 INFO:Received JSON response for Link-3: {'id': 'XD0L48G', 'name': 'Link-3', 'communicationType': 1, 'campaign': {'id': 'BUN8NBYK', 'name': 'nytt test'}, 'event': {'id': 'BMXPMEV2LHN3GHZ', 'name': 'Evenemang till kampanjAPI'}, 'inventoryType': 3, 'inventoryTags': None, 'inventory': 2, 'inventoryTotal': 2, 'inventoryConsumed': 0, 'inventoryReserved': 0, 'internalReference': 'sdfsdfs', 'url': 'https://secure.tickster.com/bmxpmev2lhn3ghz?c=xd0l48g'}
+2024-05-22 08:39:15,083 INFO:Sending request for Link-4: URL: https://api.tickster.com/sv/api/0.4/crm/A86XZUHTT37MGBV/campaigns/BUN8NBYK/communications?key=4f07078a24ee683d, Payload: {'name': 'Link-4', 'communicationType': 1, 'eventId': 'BMXPMEV2LHN3GHZ', 'inventoryType': 3, 'inventory': 2, 'inventoryTags': 'sdfsf', 'internalreference': 'sdfsdfs'}, Headers: {'Content-Type': 'application/json'}, Auth: (rydestahl.test, ************)
+2024-05-22 08:39:15,083 INFO:Response status code for Link-4: 200
+2024-05-22 08:39:15,083 INFO:Response text for Link-4: {
+  "id": "KAC9121",
+  "name": "Link-4",
+  "communicationType": 1,
+  "campaign": {
+    "id": "BUN8NBYK",
+    "name": "nytt test"
+  },
+  "event": {
+    "id": "BMXPMEV2LHN3GHZ",
+    "name": "Evenemang till kampanjAPI"
+  },
+  "inventoryType": 3,
+  "inventoryTags": null,
+  "inventory": 2,
+  "inventoryTotal": 2,
+  "inventoryConsumed": 0,
+  "inventoryReserved": 0,
+  "internalReference": "sdfsdfs",
+  "url": "https://secure.tickster.com/bmxpmev2lhn3ghz?c=kac9121"
+}
+2024-05-22 08:39:15,083 INFO:Received JSON response for Link-4: {'id': 'KAC9121', 'name': 'Link-4', 'communicationType': 1, 'campaign': {'id': 'BUN8NBYK', 'name': 'nytt test'}, 'event': {'id': 'BMXPMEV2LHN3GHZ', 'name': 'Evenemang till kampanjAPI'}, 'inventoryType': 3, 'inventoryTags': None, 'inventory': 2, 'inventoryTotal': 2, 'inventoryConsumed': 0, 'inventoryReserved': 0, 'internalReference': 'sdfsdfs', 'url': 'https://secure.tickster.com/bmxpmev2lhn3ghz?c=kac9121'}
+2024-05-22 08:39:15,720 INFO:Sending request for Link-5: URL: https://api.tickster.com/sv/api/0.4/crm/A86XZUHTT37MGBV/campaigns/BUN8NBYK/communications?key=4f07078a24ee683d, Payload: {'name': 'Link-5', 'communicationType': 1, 'eventId': 'BMXPMEV2LHN3GHZ', 'inventoryType': 3, 'inventory': 2, 'inventoryTags': 'sdfsf', 'internalreference': 'sdfsdfs'}, Headers: {'Content-Type': 'application/json'}, Auth: (rydestahl.test, ************)
+2024-05-22 08:39:15,720 INFO:Response status code for Link-5: 200
+2024-05-22 08:39:15,720 INFO:Response text for Link-5: {
+  "id": "15T8FTX",
+  "name": "Link-5",
+  "communicationType": 1,
+  "campaign": {
+    "id": "BUN8NBYK",
+    "name": "nytt test"
+  },
+  "event": {
+    "id": "BMXPMEV2LHN3GHZ",
+    "name": "Evenemang till kampanjAPI"
+  },
+  "inventoryType": 3,
+  "inventoryTags": null,
+  "inventory": 2,
+  "inventoryTotal": 2,
+  "inventoryConsumed": 0,
+  "inventoryReserved": 0,
+  "internalReference": "sdfsdfs",
+  "url": "https://secure.tickster.com/bmxpmev2lhn3ghz?c=15t8ftx"
+}
+2024-05-22 08:39:15,720 INFO:Received JSON response for Link-5: {'id': '15T8FTX', 'name': 'Link-5', 'communicationType': 1, 'campaign': {'id': 'BUN8NBYK', 'name': 'nytt test'}, 'event': {'id': 'BMXPMEV2LHN3GHZ', 'name': 'Evenemang till kampanjAPI'}, 'inventoryType': 3, 'inventoryTags': None, 'inventory': 2, 'inventoryTotal': 2, 'inventoryConsumed': 0, 'inventoryReserved': 0, 'internalReference': 'sdfsdfs', 'url': 'https://secure.tickster.com/bmxpmev2lhn3ghz?c=15t8ftx'}
+2024-05-22 08:39:16,417 INFO:Sending request for Link-6: URL: https://api.tickster.com/sv/api/0.4/crm/A86XZUHTT37MGBV/campaigns/BUN8NBYK/communications?key=4f07078a24ee683d, Payload: {'name': 'Link-6', 'communicationType': 1, 'eventId': 'BMXPMEV2LHN3GHZ', 'inventoryType': 3, 'inventory': 2, 'inventoryTags': 'sdfsf', 'internalreference': 'sdfsdfs'}, Headers: {'Content-Type': 'application/json'}, Auth: (rydestahl.test, ************)
+2024-05-22 08:39:16,417 INFO:Response status code for Link-6: 200
+2024-05-22 08:39:16,417 INFO:Response text for Link-6: {
+  "id": "PEMVU02",
+  "name": "Link-6",
+  "communicationType": 1,
+  "campaign": {
+    "id": "BUN8NBYK",
+    "name": "nytt test"
+  },
+  "event": {
+    "id": "BMXPMEV2LHN3GHZ",
+    "name": "Evenemang till kampanjAPI"
+  },
+  "inventoryType": 3,
+  "inventoryTags": null,
+  "inventory": 2,
+  "inventoryTotal": 2,
+  "inventoryConsumed": 0,
+  "inventoryReserved": 0,
+  "internalReference": "sdfsdfs",
+  "url": "https://secure.tickster.com/bmxpmev2lhn3ghz?c=pemvu02"
+}
+2024-05-22 08:39:16,417 INFO:Received JSON response for Link-6: {'id': 'PEMVU02', 'name': 'Link-6', 'communicationType': 1, 'campaign': {'id': 'BUN8NBYK', 'name': 'nytt test'}, 'event': {'id': 'BMXPMEV2LHN3GHZ', 'name': 'Evenemang till kampanjAPI'}, 'inventoryType': 3, 'inventoryTags': None, 'inventory': 2, 'inventoryTotal': 2, 'inventoryConsumed': 0, 'inventoryReserved': 0, 'internalReference': 'sdfsdfs', 'url': 'https://secure.tickster.com/bmxpmev2lhn3ghz?c=pemvu02'}
+2024-05-22 08:39:17,029 INFO:Sending request for Link-7: URL: https://api.tickster.com/sv/api/0.4/crm/A86XZUHTT37MGBV/campaigns/BUN8NBYK/communications?key=4f07078a24ee683d, Payload: {'name': 'Link-7', 'communicationType': 1, 'eventId': 'BMXPMEV2LHN3GHZ', 'inventoryType': 3, 'inventory': 2, 'inventoryTags': 'sdfsf', 'internalreference': 'sdfsdfs'}, Headers: {'Content-Type': 'application/json'}, Auth: (rydestahl.test, ************)
+2024-05-22 08:39:17,030 INFO:Response status code for Link-7: 200
+2024-05-22 08:39:17,030 INFO:Response text for Link-7: {
+  "id": "5FEX1D7",
+  "name": "Link-7",
+  "communicationType": 1,
+  "campaign": {
+    "id": "BUN8NBYK",
+    "name": "nytt test"
+  },
+  "event": {
+    "id": "BMXPMEV2LHN3GHZ",
+    "name": "Evenemang till kampanjAPI"
+  },
+  "inventoryType": 3,
+  "inventoryTags": null,
+  "inventory": 2,
+  "inventoryTotal": 2,
+  "inventoryConsumed": 0,
+  "inventoryReserved": 0,
+  "internalReference": "sdfsdfs",
+  "url": "https://secure.tickster.com/bmxpmev2lhn3ghz?c=5fex1d7"
+}
+2024-05-22 08:39:17,030 INFO:Received JSON response for Link-7: {'id': '5FEX1D7', 'name': 'Link-7', 'communicationType': 1, 'campaign': {'id': 'BUN8NBYK', 'name': 'nytt test'}, 'event': {'id': 'BMXPMEV2LHN3GHZ', 'name': 'Evenemang till kampanjAPI'}, 'inventoryType': 3, 'inventoryTags': None, 'inventory': 2, 'inventoryTotal': 2, 'inventoryConsumed': 0, 'inventoryReserved': 0, 'internalReference': 'sdfsdfs', 'url': 'https://secure.tickster.com/bmxpmev2lhn3ghz?c=5fex1d7'}
+2024-05-22 08:39:17,678 INFO:Sending request for Link-8: URL: https://api.tickster.com/sv/api/0.4/crm/A86XZUHTT37MGBV/campaigns/BUN8NBYK/communications?key=4f07078a24ee683d, Payload: {'name': 'Link-8', 'communicationType': 1, 'eventId': 'BMXPMEV2LHN3GHZ', 'inventoryType': 3, 'inventory': 2, 'inventoryTags': 'sdfsf', 'internalreference': 'sdfsdfs'}, Headers: {'Content-Type': 'application/json'}, Auth: (rydestahl.test, ************)
+2024-05-22 08:39:17,678 INFO:Response status code for Link-8: 200
+2024-05-22 08:39:17,678 INFO:Response text for Link-8: {
+  "id": "7TYML4A",
+  "name": "Link-8",
+  "communicationType": 1,
+  "campaign": {
+    "id": "BUN8NBYK",
+    "name": "nytt test"
+  },
+  "event": {
+    "id": "BMXPMEV2LHN3GHZ",
+    "name": "Evenemang till kampanjAPI"
+  },
+  "inventoryType": 3,
+  "inventoryTags": null,
+  "inventory": 2,
+  "inventoryTotal": 2,
+  "inventoryConsumed": 0,
+  "inventoryReserved": 0,
+  "internalReference": "sdfsdfs",
+  "url": "https://secure.tickster.com/bmxpmev2lhn3ghz?c=7tyml4a"
+}
+2024-05-22 08:39:17,678 INFO:Received JSON response for Link-8: {'id': '7TYML4A', 'name': 'Link-8', 'communicationType': 1, 'campaign': {'id': 'BUN8NBYK', 'name': 'nytt test'}, 'event': {'id': 'BMXPMEV2LHN3GHZ', 'name': 'Evenemang till kampanjAPI'}, 'inventoryType': 3, 'inventoryTags': None, 'inventory': 2, 'inventoryTotal': 2, 'inventoryConsumed': 0, 'inventoryReserved': 0, 'internalReference': 'sdfsdfs', 'url': 'https://secure.tickster.com/bmxpmev2lhn3ghz?c=7tyml4a'}
+2024-05-22 08:39:18,293 INFO:Sending request for Link-9: URL: https://api.tickster.com/sv/api/0.4/crm/A86XZUHTT37MGBV/campaigns/BUN8NBYK/communications?key=4f07078a24ee683d, Payload: {'name': 'Link-9', 'communicationType': 1, 'eventId': 'BMXPMEV2LHN3GHZ', 'inventoryType': 3, 'inventory': 2, 'inventoryTags': 'sdfsf', 'internalreference': 'sdfsdfs'}, Headers: {'Content-Type': 'application/json'}, Auth: (rydestahl.test, ************)
+2024-05-22 08:39:18,293 INFO:Response status code for Link-9: 200
+2024-05-22 08:39:18,293 INFO:Response text for Link-9: {
+  "id": "RHXFL8B",
+  "name": "Link-9",
+  "communicationType": 1,
+  "campaign": {
+    "id": "BUN8NBYK",
+    "name": "nytt test"
+  },
+  "event": {
+    "id": "BMXPMEV2LHN3GHZ",
+    "name": "Evenemang till kampanjAPI"
+  },
+  "inventoryType": 3,
+  "inventoryTags": null,
+  "inventory": 2,
+  "inventoryTotal": 2,
+  "inventoryConsumed": 0,
+  "inventoryReserved": 0,
+  "internalReference": "sdfsdfs",
+  "url": "https://secure.tickster.com/bmxpmev2lhn3ghz?c=rhxfl8b"
+}
+2024-05-22 08:39:18,294 INFO:Received JSON response for Link-9: {'id': 'RHXFL8B', 'name': 'Link-9', 'communicationType': 1, 'campaign': {'id': 'BUN8NBYK', 'name': 'nytt test'}, 'event': {'id': 'BMXPMEV2LHN3GHZ', 'name': 'Evenemang till kampanjAPI'}, 'inventoryType': 3, 'inventoryTags': None, 'inventory': 2, 'inventoryTotal': 2, 'inventoryConsumed': 0, 'inventoryReserved': 0, 'internalReference': 'sdfsdfs', 'url': 'https://secure.tickster.com/bmxpmev2lhn3ghz?c=rhxfl8b'}
+2024-05-22 08:39:18,948 INFO:Sending request for Link-10: URL: https://api.tickster.com/sv/api/0.4/crm/A86XZUHTT37MGBV/campaigns/BUN8NBYK/communications?key=4f07078a24ee683d, Payload: {'name': 'Link-10', 'communicationType': 1, 'eventId': 'BMXPMEV2LHN3GHZ', 'inventoryType': 3, 'inventory': 2, 'inventoryTags': 'sdfsf', 'internalreference': 'sdfsdfs'}, Headers: {'Content-Type': 'application/json'}, Auth: (rydestahl.test, ************)
+2024-05-22 08:39:18,948 INFO:Response status code for Link-10: 200
+2024-05-22 08:39:18,949 INFO:Response text for Link-10: {
+  "id": "7F91NVH",
+  "name": "Link-10",
+  "communicationType": 1,
+  "campaign": {
+    "id": "BUN8NBYK",
+    "name": "nytt test"
+  },
+  "event": {
+    "id": "BMXPMEV2LHN3GHZ",
+    "name": "Evenemang till kampanjAPI"
+  },
+  "inventoryType": 3,
+  "inventoryTags": null,
+  "inventory": 2,
+  "inventoryTotal": 2,
+  "inventoryConsumed": 0,
+  "inventoryReserved": 0,
+  "internalReference": "sdfsdfs",
+  "url": "https://secure.tickster.com/bmxpmev2lhn3ghz?c=7f91nvh"
+}
+2024-05-22 08:39:18,949 INFO:Received JSON response for Link-10: {'id': '7F91NVH', 'name': 'Link-10', 'communicationType': 1, 'campaign': {'id': 'BUN8NBYK', 'name': 'nytt test'}, 'event': {'id': 'BMXPMEV2LHN3GHZ', 'name': 'Evenemang till kampanjAPI'}, 'inventoryType': 3, 'inventoryTags': None, 'inventory': 2, 'inventoryTotal': 2, 'inventoryConsumed': 0, 'inventoryReserved': 0, 'internalReference': 'sdfsdfs', 'url': 'https://secure.tickster.com/bmxpmev2lhn3ghz?c=7f91nvh'}
+2024-05-22 08:39:19,558 INFO:Sending request for Link-11: URL: https://api.tickster.com/sv/api/0.4/crm/A86XZUHTT37MGBV/campaigns/BUN8NBYK/communications?key=4f07078a24ee683d, Payload: {'name': 'Link-11', 'communicationType': 1, 'eventId': 'BMXPMEV2LHN3GHZ', 'inventoryType': 3, 'inventory': 2, 'inventoryTags': 'sdfsf', 'internalreference': 'sdfsdfs'}, Headers: {'Content-Type': 'application/json'}, Auth: (rydestahl.test, ************)
+2024-05-22 08:39:19,558 INFO:Response status code for Link-11: 200
+2024-05-22 08:39:19,558 INFO:Response text for Link-11: {
+  "id": "GXUW0G8",
+  "name": "Link-11",
+  "communicationType": 1,
+  "campaign": {
+    "id": "BUN8NBYK",
+    "name": "nytt test"
+  },
+  "event": {
+    "id": "BMXPMEV2LHN3GHZ",
+    "name": "Evenemang till kampanjAPI"
+  },
+  "inventoryType": 3,
+  "inventoryTags": null,
+  "inventory": 2,
+  "inventoryTotal": 2,
+  "inventoryConsumed": 0,
+  "inventoryReserved": 0,
+  "internalReference": "sdfsdfs",
+  "url": "https://secure.tickster.com/bmxpmev2lhn3ghz?c=gxuw0g8"
+}
+2024-05-22 08:39:19,558 INFO:Received JSON response for Link-11: {'id': 'GXUW0G8', 'name': 'Link-11', 'communicationType': 1, 'campaign': {'id': 'BUN8NBYK', 'name': 'nytt test'}, 'event': {'id': 'BMXPMEV2LHN3GHZ', 'name': 'Evenemang till kampanjAPI'}, 'inventoryType': 3, 'inventoryTags': None, 'inventory': 2, 'inventoryTotal': 2, 'inventoryConsumed': 0, 'inventoryReserved': 0, 'internalReference': 'sdfsdfs', 'url': 'https://secure.tickster.com/bmxpmev2lhn3ghz?c=gxuw0g8'}
+2024-05-22 08:39:20,170 INFO:Sending request for Link-12: URL: https://api.tickster.com/sv/api/0.4/crm/A86XZUHTT37MGBV/campaigns/BUN8NBYK/communications?key=4f07078a24ee683d, Payload: {'name': 'Link-12', 'communicationType': 1, 'eventId': 'BMXPMEV2LHN3GHZ', 'inventoryType': 3, 'inventory': 2, 'inventoryTags': 'sdfsf', 'internalreference': 'sdfsdfs'}, Headers: {'Content-Type': 'application/json'}, Auth: (rydestahl.test, ************)
+2024-05-22 08:39:20,170 INFO:Response status code for Link-12: 200
+2024-05-22 08:39:20,171 INFO:Response text for Link-12: {
+  "id": "6YLBGB3",
+  "name": "Link-12",
+  "communicationType": 1,
+  "campaign": {
+    "id": "BUN8NBYK",
+    "name": "nytt test"
+  },
+  "event": {
+    "id": "BMXPMEV2LHN3GHZ",
+    "name": "Evenemang till kampanjAPI"
+  },
+  "inventoryType": 3,
+  "inventoryTags": null,
+  "inventory": 2,
+  "inventoryTotal": 2,
+  "inventoryConsumed": 0,
+  "inventoryReserved": 0,
+  "internalReference": "sdfsdfs",
+  "url": "https://secure.tickster.com/bmxpmev2lhn3ghz?c=6ylbgb3"
+}
+2024-05-22 08:39:20,171 INFO:Received JSON response for Link-12: {'id': '6YLBGB3', 'name': 'Link-12', 'communicationType': 1, 'campaign': {'id': 'BUN8NBYK', 'name': 'nytt test'}, 'event': {'id': 'BMXPMEV2LHN3GHZ', 'name': 'Evenemang till kampanjAPI'}, 'inventoryType': 3, 'inventoryTags': None, 'inventory': 2, 'inventoryTotal': 2, 'inventoryConsumed': 0, 'inventoryReserved': 0, 'internalReference': 'sdfsdfs', 'url': 'https://secure.tickster.com/bmxpmev2lhn3ghz?c=6ylbgb3'}
+2024-05-22 08:39:20,797 INFO:Sending request for Link-13: URL: https://api.tickster.com/sv/api/0.4/crm/A86XZUHTT37MGBV/campaigns/BUN8NBYK/communications?key=4f07078a24ee683d, Payload: {'name': 'Link-13', 'communicationType': 1, 'eventId': 'BMXPMEV2LHN3GHZ', 'inventoryType': 3, 'inventory': 2, 'inventoryTags': 'sdfsf', 'internalreference': 'sdfsdfs'}, Headers: {'Content-Type': 'application/json'}, Auth: (rydestahl.test, ************)
+2024-05-22 08:39:20,798 INFO:Response status code for Link-13: 200
+2024-05-22 08:39:20,798 INFO:Response text for Link-13: {
+  "id": "DW31EMJ",
+  "name": "Link-13",
+  "communicationType": 1,
+  "campaign": {
+    "id": "BUN8NBYK",
+    "name": "nytt test"
+  },
+  "event": {
+    "id": "BMXPMEV2LHN3GHZ",
+    "name": "Evenemang till kampanjAPI"
+  },
+  "inventoryType": 3,
+  "inventoryTags": null,
+  "inventory": 2,
+  "inventoryTotal": 2,
+  "inventoryConsumed": 0,
+  "inventoryReserved": 0,
+  "internalReference": "sdfsdfs",
+  "url": "https://secure.tickster.com/bmxpmev2lhn3ghz?c=dw31emj"
+}
+2024-05-22 08:39:20,798 INFO:Received JSON response for Link-13: {'id': 'DW31EMJ', 'name': 'Link-13', 'communicationType': 1, 'campaign': {'id': 'BUN8NBYK', 'name': 'nytt test'}, 'event': {'id': 'BMXPMEV2LHN3GHZ', 'name': 'Evenemang till kampanjAPI'}, 'inventoryType': 3, 'inventoryTags': None, 'inventory': 2, 'inventoryTotal': 2, 'inventoryConsumed': 0, 'inventoryReserved': 0, 'internalReference': 'sdfsdfs', 'url': 'https://secure.tickster.com/bmxpmev2lhn3ghz?c=dw31emj'}
+2024-05-22 08:39:21,416 INFO:Sending request for Link-14: URL: https://api.tickster.com/sv/api/0.4/crm/A86XZUHTT37MGBV/campaigns/BUN8NBYK/communications?key=4f07078a24ee683d, Payload: {'name': 'Link-14', 'communicationType': 1, 'eventId': 'BMXPMEV2LHN3GHZ', 'inventoryType': 3, 'inventory': 2, 'inventoryTags': 'sdfsf', 'internalreference': 'sdfsdfs'}, Headers: {'Content-Type': 'application/json'}, Auth: (rydestahl.test, ************)
+2024-05-22 08:39:21,416 INFO:Response status code for Link-14: 200
+2024-05-22 08:39:21,416 INFO:Response text for Link-14: {
+  "id": "8MZ2KD2",
+  "name": "Link-14",
+  "communicationType": 1,
+  "campaign": {
+    "id": "BUN8NBYK",
+    "name": "nytt test"
+  },
+  "event": {
+    "id": "BMXPMEV2LHN3GHZ",
+    "name": "Evenemang till kampanjAPI"
+  },
+  "inventoryType": 3,
+  "inventoryTags": null,
+  "inventory": 2,
+  "inventoryTotal": 2,
+  "inventoryConsumed": 0,
+  "inventoryReserved": 0,
+  "internalReference": "sdfsdfs",
+  "url": "https://secure.tickster.com/bmxpmev2lhn3ghz?c=8mz2kd2"
+}
+2024-05-22 08:39:21,416 INFO:Received JSON response for Link-14: {'id': '8MZ2KD2', 'name': 'Link-14', 'communicationType': 1, 'campaign': {'id': 'BUN8NBYK', 'name': 'nytt test'}, 'event': {'id': 'BMXPMEV2LHN3GHZ', 'name': 'Evenemang till kampanjAPI'}, 'inventoryType': 3, 'inventoryTags': None, 'inventory': 2, 'inventoryTotal': 2, 'inventoryConsumed': 0, 'inventoryReserved': 0, 'internalReference': 'sdfsdfs', 'url': 'https://secure.tickster.com/bmxpmev2lhn3ghz?c=8mz2kd2'}
+2024-05-22 08:39:22,038 INFO:Sending request for Link-15: URL: https://api.tickster.com/sv/api/0.4/crm/A86XZUHTT37MGBV/campaigns/BUN8NBYK/communications?key=4f07078a24ee683d, Payload: {'name': 'Link-15', 'communicationType': 1, 'eventId': 'BMXPMEV2LHN3GHZ', 'inventoryType': 3, 'inventory': 2, 'inventoryTags': 'sdfsf', 'internalreference': 'sdfsdfs'}, Headers: {'Content-Type': 'application/json'}, Auth: (rydestahl.test, ************)
+2024-05-22 08:39:22,038 INFO:Response status code for Link-15: 200
+2024-05-22 08:39:22,038 INFO:Response text for Link-15: {
+  "id": "LK02B1D",
+  "name": "Link-15",
+  "communicationType": 1,
+  "campaign": {
+    "id": "BUN8NBYK",
+    "name": "nytt test"
+  },
+  "event": {
+    "id": "BMXPMEV2LHN3GHZ",
+    "name": "Evenemang till kampanjAPI"
+  },
+  "inventoryType": 3,
+  "inventoryTags": null,
+  "inventory": 2,
+  "inventoryTotal": 2,
+  "inventoryConsumed": 0,
+  "inventoryReserved": 0,
+  "internalReference": "sdfsdfs",
+  "url": "https://secure.tickster.com/bmxpmev2lhn3ghz?c=lk02b1d"
+}
+2024-05-22 08:39:22,038 INFO:Received JSON response for Link-15: {'id': 'LK02B1D', 'name': 'Link-15', 'communicationType': 1, 'campaign': {'id': 'BUN8NBYK', 'name': 'nytt test'}, 'event': {'id': 'BMXPMEV2LHN3GHZ', 'name': 'Evenemang till kampanjAPI'}, 'inventoryType': 3, 'inventoryTags': None, 'inventory': 2, 'inventoryTotal': 2, 'inventoryConsumed': 0, 'inventoryReserved': 0, 'internalReference': 'sdfsdfs', 'url': 'https://secure.tickster.com/bmxpmev2lhn3ghz?c=lk02b1d'}
+2024-05-22 08:39:22,064 INFO:127.0.0.1 - - [22/May/2024 08:39:22] "POST / HTTP/1.1" 200 -
+2024-05-22 08:39:37,703 INFO:127.0.0.1 - - [22/May/2024 08:39:37] "GET /socket.io/?EIO=4&transport=polling&t=O-V1jhZ HTTP/1.1" 200 -
+2024-05-22 08:39:37,712 INFO:127.0.0.1 - - [22/May/2024 08:39:37] "POST /socket.io/?EIO=4&transport=polling&t=O-V1jhf&sid=X0YEnfdH_qIr4Q0sAAAG HTTP/1.1" 200 -
+2024-05-22 08:39:37,716 INFO:127.0.0.1 - - [22/May/2024 08:39:37] "GET /socket.io/?EIO=4&transport=polling&t=O-V1jhh&sid=X0YEnfdH_qIr4Q0sAAAG HTTP/1.1" 200 -
+2024-05-22 08:44:31,401 INFO: * Detected change in 'C:\\Users\\christoffer.rydestah\\Documents\\Repos\\CampaignApp\\webbapp.py', reloading
+2024-05-22 08:44:31,551 INFO: * Restarting with stat
+2024-05-22 08:47:09,932 INFO:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-05-22 08:47:09,932 INFO:[33mPress CTRL+C to quit[0m
+2024-05-22 08:47:09,932 INFO: * Restarting with stat
+2024-05-22 08:47:11,033 WARNING: * Debugger is active!
+2024-05-22 08:47:11,038 INFO: * Debugger PIN: 524-106-737
+2024-05-22 08:47:19,318 INFO:127.0.0.1 - - [22/May/2024 08:47:19] "GET / HTTP/1.1" 200 -
+2024-05-22 08:47:19,745 INFO:127.0.0.1 - - [22/May/2024 08:47:19] "GET /socket.io/?EIO=4&transport=polling&t=O-V3UUc HTTP/1.1" 200 -
+2024-05-22 08:47:19,766 INFO:127.0.0.1 - - [22/May/2024 08:47:19] "POST /socket.io/?EIO=4&transport=polling&t=O-V3UVB&sid=4dZ4H9PhcSHFZUXpAAAA HTTP/1.1" 200 -
+2024-05-22 08:47:19,769 INFO:127.0.0.1 - - [22/May/2024 08:47:19] "GET /socket.io/?EIO=4&transport=polling&t=O-V3UVD&sid=4dZ4H9PhcSHFZUXpAAAA HTTP/1.1" 200 -
+2024-05-22 08:47:19,850 INFO:127.0.0.1 - - [22/May/2024 08:47:19] "GET /socket.io/?EIO=4&transport=polling&t=O-V3UWK&sid=4dZ4H9PhcSHFZUXpAAAA HTTP/1.1" 200 -
+2024-05-22 08:48:06,818 INFO:127.0.0.1 - - [22/May/2024 08:48:06] "GET /socket.io/?EIO=4&transport=websocket&sid=4dZ4H9PhcSHFZUXpAAAA HTTP/1.1" 200 -
+2024-05-22 08:48:07,888 INFO:Sending request for Link-1: URL: https://api.tickster.com/sv/api/0.4/crm/A86XZUHTT37MGBV/campaigns/BUN8NBYK/communications?key=4f07078a24ee683d, Payload: {'name': 'Link-1', 'communicationType': 1, 'eventId': 'BMXPMEV2LHN3GHZ', 'inventoryType': 3, 'inventory': 2, 'inventoryTags': 'sdfsdf', 'internalreference': 'sdfsdf'}, Headers: {'Content-Type': 'application/json'}, Auth: (rydestahl.test, ************)
+2024-05-22 08:48:07,889 INFO:Response status code for Link-1: 200
+2024-05-22 08:48:07,889 INFO:Response text for Link-1: {
+  "id": "513JV3B",
+  "name": "Link-1",
+  "communicationType": 1,
+  "campaign": {
+    "id": "BUN8NBYK",
+    "name": "nytt test"
+  },
+  "event": {
+    "id": "BMXPMEV2LHN3GHZ",
+    "name": "Evenemang till kampanjAPI"
+  },
+  "inventoryType": 3,
+  "inventoryTags": null,
+  "inventory": 2,
+  "inventoryTotal": 2,
+  "inventoryConsumed": 0,
+  "inventoryReserved": 0,
+  "internalReference": "sdfsdf",
+  "url": "https://secure.tickster.com/bmxpmev2lhn3ghz?c=513jv3b"
+}
+2024-05-22 08:48:07,889 INFO:Received JSON response for Link-1: {'id': '513JV3B', 'name': 'Link-1', 'communicationType': 1, 'campaign': {'id': 'BUN8NBYK', 'name': 'nytt test'}, 'event': {'id': 'BMXPMEV2LHN3GHZ', 'name': 'Evenemang till kampanjAPI'}, 'inventoryType': 3, 'inventoryTags': None, 'inventory': 2, 'inventoryTotal': 2, 'inventoryConsumed': 0, 'inventoryReserved': 0, 'internalReference': 'sdfsdf', 'url': 'https://secure.tickster.com/bmxpmev2lhn3ghz?c=513jv3b'}
+2024-05-22 08:48:08,554 INFO:Sending request for Link-2: URL: https://api.tickster.com/sv/api/0.4/crm/A86XZUHTT37MGBV/campaigns/BUN8NBYK/communications?key=4f07078a24ee683d, Payload: {'name': 'Link-2', 'communicationType': 1, 'eventId': 'BMXPMEV2LHN3GHZ', 'inventoryType': 3, 'inventory': 2, 'inventoryTags': 'sdfsdf', 'internalreference': 'sdfsdf'}, Headers: {'Content-Type': 'application/json'}, Auth: (rydestahl.test, ************)
+2024-05-22 08:48:08,554 INFO:Response status code for Link-2: 200
+2024-05-22 08:48:08,554 INFO:Response text for Link-2: {
+  "id": "NA9MB62",
+  "name": "Link-2",
+  "communicationType": 1,
+  "campaign": {
+    "id": "BUN8NBYK",
+    "name": "nytt test"
+  },
+  "event": {
+    "id": "BMXPMEV2LHN3GHZ",
+    "name": "Evenemang till kampanjAPI"
+  },
+  "inventoryType": 3,
+  "inventoryTags": null,
+  "inventory": 2,
+  "inventoryTotal": 2,
+  "inventoryConsumed": 0,
+  "inventoryReserved": 0,
+  "internalReference": "sdfsdf",
+  "url": "https://secure.tickster.com/bmxpmev2lhn3ghz?c=na9mb62"
+}
+2024-05-22 08:48:08,554 INFO:Received JSON response for Link-2: {'id': 'NA9MB62', 'name': 'Link-2', 'communicationType': 1, 'campaign': {'id': 'BUN8NBYK', 'name': 'nytt test'}, 'event': {'id': 'BMXPMEV2LHN3GHZ', 'name': 'Evenemang till kampanjAPI'}, 'inventoryType': 3, 'inventoryTags': None, 'inventory': 2, 'inventoryTotal': 2, 'inventoryConsumed': 0, 'inventoryReserved': 0, 'internalReference': 'sdfsdf', 'url': 'https://secure.tickster.com/bmxpmev2lhn3ghz?c=na9mb62'}
+2024-05-22 08:48:09,204 INFO:Sending request for Link-3: URL: https://api.tickster.com/sv/api/0.4/crm/A86XZUHTT37MGBV/campaigns/BUN8NBYK/communications?key=4f07078a24ee683d, Payload: {'name': 'Link-3', 'communicationType': 1, 'eventId': 'BMXPMEV2LHN3GHZ', 'inventoryType': 3, 'inventory': 2, 'inventoryTags': 'sdfsdf', 'internalreference': 'sdfsdf'}, Headers: {'Content-Type': 'application/json'}, Auth: (rydestahl.test, ************)
+2024-05-22 08:48:09,204 INFO:Response status code for Link-3: 200
+2024-05-22 08:48:09,204 INFO:Response text for Link-3: {
+  "id": "77DZ45L",
+  "name": "Link-3",
+  "communicationType": 1,
+  "campaign": {
+    "id": "BUN8NBYK",
+    "name": "nytt test"
+  },
+  "event": {
+    "id": "BMXPMEV2LHN3GHZ",
+    "name": "Evenemang till kampanjAPI"
+  },
+  "inventoryType": 3,
+  "inventoryTags": null,
+  "inventory": 2,
+  "inventoryTotal": 2,
+  "inventoryConsumed": 0,
+  "inventoryReserved": 0,
+  "internalReference": "sdfsdf",
+  "url": "https://secure.tickster.com/bmxpmev2lhn3ghz?c=77dz45l"
+}
+2024-05-22 08:48:09,204 INFO:Received JSON response for Link-3: {'id': '77DZ45L', 'name': 'Link-3', 'communicationType': 1, 'campaign': {'id': 'BUN8NBYK', 'name': 'nytt test'}, 'event': {'id': 'BMXPMEV2LHN3GHZ', 'name': 'Evenemang till kampanjAPI'}, 'inventoryType': 3, 'inventoryTags': None, 'inventory': 2, 'inventoryTotal': 2, 'inventoryConsumed': 0, 'inventoryReserved': 0, 'internalReference': 'sdfsdf', 'url': 'https://secure.tickster.com/bmxpmev2lhn3ghz?c=77dz45l'}
+2024-05-22 08:48:09,843 INFO:Sending request for Link-4: URL: https://api.tickster.com/sv/api/0.4/crm/A86XZUHTT37MGBV/campaigns/BUN8NBYK/communications?key=4f07078a24ee683d, Payload: {'name': 'Link-4', 'communicationType': 1, 'eventId': 'BMXPMEV2LHN3GHZ', 'inventoryType': 3, 'inventory': 2, 'inventoryTags': 'sdfsdf', 'internalreference': 'sdfsdf'}, Headers: {'Content-Type': 'application/json'}, Auth: (rydestahl.test, ************)
+2024-05-22 08:48:09,843 INFO:Response status code for Link-4: 200
+2024-05-22 08:48:09,843 INFO:Response text for Link-4: {
+  "id": "Y03VN0Z",
+  "name": "Link-4",
+  "communicationType": 1,
+  "campaign": {
+    "id": "BUN8NBYK",
+    "name": "nytt test"
+  },
+  "event": {
+    "id": "BMXPMEV2LHN3GHZ",
+    "name": "Evenemang till kampanjAPI"
+  },
+  "inventoryType": 3,
+  "inventoryTags": null,
+  "inventory": 2,
+  "inventoryTotal": 2,
+  "inventoryConsumed": 0,
+  "inventoryReserved": 0,
+  "internalReference": "sdfsdf",
+  "url": "https://secure.tickster.com/bmxpmev2lhn3ghz?c=y03vn0z"
+}
+2024-05-22 08:48:09,843 INFO:Received JSON response for Link-4: {'id': 'Y03VN0Z', 'name': 'Link-4', 'communicationType': 1, 'campaign': {'id': 'BUN8NBYK', 'name': 'nytt test'}, 'event': {'id': 'BMXPMEV2LHN3GHZ', 'name': 'Evenemang till kampanjAPI'}, 'inventoryType': 3, 'inventoryTags': None, 'inventory': 2, 'inventoryTotal': 2, 'inventoryConsumed': 0, 'inventoryReserved': 0, 'internalReference': 'sdfsdf', 'url': 'https://secure.tickster.com/bmxpmev2lhn3ghz?c=y03vn0z'}
+2024-05-22 08:48:10,466 INFO:Sending request for Link-5: URL: https://api.tickster.com/sv/api/0.4/crm/A86XZUHTT37MGBV/campaigns/BUN8NBYK/communications?key=4f07078a24ee683d, Payload: {'name': 'Link-5', 'communicationType': 1, 'eventId': 'BMXPMEV2LHN3GHZ', 'inventoryType': 3, 'inventory': 2, 'inventoryTags': 'sdfsdf', 'internalreference': 'sdfsdf'}, Headers: {'Content-Type': 'application/json'}, Auth: (rydestahl.test, ************)
+2024-05-22 08:48:10,467 INFO:Response status code for Link-5: 200
+2024-05-22 08:48:10,467 INFO:Response text for Link-5: {
+  "id": "P4FUAC9",
+  "name": "Link-5",
+  "communicationType": 1,
+  "campaign": {
+    "id": "BUN8NBYK",
+    "name": "nytt test"
+  },
+  "event": {
+    "id": "BMXPMEV2LHN3GHZ",
+    "name": "Evenemang till kampanjAPI"
+  },
+  "inventoryType": 3,
+  "inventoryTags": null,
+  "inventory": 2,
+  "inventoryTotal": 2,
+  "inventoryConsumed": 0,
+  "inventoryReserved": 0,
+  "internalReference": "sdfsdf",
+  "url": "https://secure.tickster.com/bmxpmev2lhn3ghz?c=p4fuac9"
+}
+2024-05-22 08:48:10,467 INFO:Received JSON response for Link-5: {'id': 'P4FUAC9', 'name': 'Link-5', 'communicationType': 1, 'campaign': {'id': 'BUN8NBYK', 'name': 'nytt test'}, 'event': {'id': 'BMXPMEV2LHN3GHZ', 'name': 'Evenemang till kampanjAPI'}, 'inventoryType': 3, 'inventoryTags': None, 'inventory': 2, 'inventoryTotal': 2, 'inventoryConsumed': 0, 'inventoryReserved': 0, 'internalReference': 'sdfsdf', 'url': 'https://secure.tickster.com/bmxpmev2lhn3ghz?c=p4fuac9'}
+2024-05-22 08:48:11,083 INFO:Sending request for Link-6: URL: https://api.tickster.com/sv/api/0.4/crm/A86XZUHTT37MGBV/campaigns/BUN8NBYK/communications?key=4f07078a24ee683d, Payload: {'name': 'Link-6', 'communicationType': 1, 'eventId': 'BMXPMEV2LHN3GHZ', 'inventoryType': 3, 'inventory': 2, 'inventoryTags': 'sdfsdf', 'internalreference': 'sdfsdf'}, Headers: {'Content-Type': 'application/json'}, Auth: (rydestahl.test, ************)
+2024-05-22 08:48:11,083 INFO:Response status code for Link-6: 200
+2024-05-22 08:48:11,083 INFO:Response text for Link-6: {
+  "id": "U63GD6J",
+  "name": "Link-6",
+  "communicationType": 1,
+  "campaign": {
+    "id": "BUN8NBYK",
+    "name": "nytt test"
+  },
+  "event": {
+    "id": "BMXPMEV2LHN3GHZ",
+    "name": "Evenemang till kampanjAPI"
+  },
+  "inventoryType": 3,
+  "inventoryTags": null,
+  "inventory": 2,
+  "inventoryTotal": 2,
+  "inventoryConsumed": 0,
+  "inventoryReserved": 0,
+  "internalReference": "sdfsdf",
+  "url": "https://secure.tickster.com/bmxpmev2lhn3ghz?c=u63gd6j"
+}
+2024-05-22 08:48:11,083 INFO:Received JSON response for Link-6: {'id': 'U63GD6J', 'name': 'Link-6', 'communicationType': 1, 'campaign': {'id': 'BUN8NBYK', 'name': 'nytt test'}, 'event': {'id': 'BMXPMEV2LHN3GHZ', 'name': 'Evenemang till kampanjAPI'}, 'inventoryType': 3, 'inventoryTags': None, 'inventory': 2, 'inventoryTotal': 2, 'inventoryConsumed': 0, 'inventoryReserved': 0, 'internalReference': 'sdfsdf', 'url': 'https://secure.tickster.com/bmxpmev2lhn3ghz?c=u63gd6j'}
+2024-05-22 08:48:11,692 INFO:Sending request for Link-7: URL: https://api.tickster.com/sv/api/0.4/crm/A86XZUHTT37MGBV/campaigns/BUN8NBYK/communications?key=4f07078a24ee683d, Payload: {'name': 'Link-7', 'communicationType': 1, 'eventId': 'BMXPMEV2LHN3GHZ', 'inventoryType': 3, 'inventory': 2, 'inventoryTags': 'sdfsdf', 'internalreference': 'sdfsdf'}, Headers: {'Content-Type': 'application/json'}, Auth: (rydestahl.test, ************)
+2024-05-22 08:48:11,692 INFO:Response status code for Link-7: 200
+2024-05-22 08:48:11,692 INFO:Response text for Link-7: {
+  "id": "TDN5RHR",
+  "name": "Link-7",
+  "communicationType": 1,
+  "campaign": {
+    "id": "BUN8NBYK",
+    "name": "nytt test"
+  },
+  "event": {
+    "id": "BMXPMEV2LHN3GHZ",
+    "name": "Evenemang till kampanjAPI"
+  },
+  "inventoryType": 3,
+  "inventoryTags": null,
+  "inventory": 2,
+  "inventoryTotal": 2,
+  "inventoryConsumed": 0,
+  "inventoryReserved": 0,
+  "internalReference": "sdfsdf",
+  "url": "https://secure.tickster.com/bmxpmev2lhn3ghz?c=tdn5rhr"
+}
+2024-05-22 08:48:11,692 INFO:Received JSON response for Link-7: {'id': 'TDN5RHR', 'name': 'Link-7', 'communicationType': 1, 'campaign': {'id': 'BUN8NBYK', 'name': 'nytt test'}, 'event': {'id': 'BMXPMEV2LHN3GHZ', 'name': 'Evenemang till kampanjAPI'}, 'inventoryType': 3, 'inventoryTags': None, 'inventory': 2, 'inventoryTotal': 2, 'inventoryConsumed': 0, 'inventoryReserved': 0, 'internalReference': 'sdfsdf', 'url': 'https://secure.tickster.com/bmxpmev2lhn3ghz?c=tdn5rhr'}
+2024-05-22 08:48:12,308 INFO:Sending request for Link-8: URL: https://api.tickster.com/sv/api/0.4/crm/A86XZUHTT37MGBV/campaigns/BUN8NBYK/communications?key=4f07078a24ee683d, Payload: {'name': 'Link-8', 'communicationType': 1, 'eventId': 'BMXPMEV2LHN3GHZ', 'inventoryType': 3, 'inventory': 2, 'inventoryTags': 'sdfsdf', 'internalreference': 'sdfsdf'}, Headers: {'Content-Type': 'application/json'}, Auth: (rydestahl.test, ************)
+2024-05-22 08:48:12,308 INFO:Response status code for Link-8: 200
+2024-05-22 08:48:12,308 INFO:Response text for Link-8: {
+  "id": "VHB0XDC",
+  "name": "Link-8",
+  "communicationType": 1,
+  "campaign": {
+    "id": "BUN8NBYK",
+    "name": "nytt test"
+  },
+  "event": {
+    "id": "BMXPMEV2LHN3GHZ",
+    "name": "Evenemang till kampanjAPI"
+  },
+  "inventoryType": 3,
+  "inventoryTags": null,
+  "inventory": 2,
+  "inventoryTotal": 2,
+  "inventoryConsumed": 0,
+  "inventoryReserved": 0,
+  "internalReference": "sdfsdf",
+  "url": "https://secure.tickster.com/bmxpmev2lhn3ghz?c=vhb0xdc"
+}
+2024-05-22 08:48:12,308 INFO:Received JSON response for Link-8: {'id': 'VHB0XDC', 'name': 'Link-8', 'communicationType': 1, 'campaign': {'id': 'BUN8NBYK', 'name': 'nytt test'}, 'event': {'id': 'BMXPMEV2LHN3GHZ', 'name': 'Evenemang till kampanjAPI'}, 'inventoryType': 3, 'inventoryTags': None, 'inventory': 2, 'inventoryTotal': 2, 'inventoryConsumed': 0, 'inventoryReserved': 0, 'internalReference': 'sdfsdf', 'url': 'https://secure.tickster.com/bmxpmev2lhn3ghz?c=vhb0xdc'}
+2024-05-22 08:48:12,944 INFO:Sending request for Link-9: URL: https://api.tickster.com/sv/api/0.4/crm/A86XZUHTT37MGBV/campaigns/BUN8NBYK/communications?key=4f07078a24ee683d, Payload: {'name': 'Link-9', 'communicationType': 1, 'eventId': 'BMXPMEV2LHN3GHZ', 'inventoryType': 3, 'inventory': 2, 'inventoryTags': 'sdfsdf', 'internalreference': 'sdfsdf'}, Headers: {'Content-Type': 'application/json'}, Auth: (rydestahl.test, ************)
+2024-05-22 08:48:12,944 INFO:Response status code for Link-9: 200
+2024-05-22 08:48:12,944 INFO:Response text for Link-9: {
+  "id": "HAUUWWR",
+  "name": "Link-9",
+  "communicationType": 1,
+  "campaign": {
+    "id": "BUN8NBYK",
+    "name": "nytt test"
+  },
+  "event": {
+    "id": "BMXPMEV2LHN3GHZ",
+    "name": "Evenemang till kampanjAPI"
+  },
+  "inventoryType": 3,
+  "inventoryTags": null,
+  "inventory": 2,
+  "inventoryTotal": 2,
+  "inventoryConsumed": 0,
+  "inventoryReserved": 0,
+  "internalReference": "sdfsdf",
+  "url": "https://secure.tickster.com/bmxpmev2lhn3ghz?c=hauuwwr"
+}
+2024-05-22 08:48:12,944 INFO:Received JSON response for Link-9: {'id': 'HAUUWWR', 'name': 'Link-9', 'communicationType': 1, 'campaign': {'id': 'BUN8NBYK', 'name': 'nytt test'}, 'event': {'id': 'BMXPMEV2LHN3GHZ', 'name': 'Evenemang till kampanjAPI'}, 'inventoryType': 3, 'inventoryTags': None, 'inventory': 2, 'inventoryTotal': 2, 'inventoryConsumed': 0, 'inventoryReserved': 0, 'internalReference': 'sdfsdf', 'url': 'https://secure.tickster.com/bmxpmev2lhn3ghz?c=hauuwwr'}
+2024-05-22 08:48:13,556 INFO:Sending request for Link-10: URL: https://api.tickster.com/sv/api/0.4/crm/A86XZUHTT37MGBV/campaigns/BUN8NBYK/communications?key=4f07078a24ee683d, Payload: {'name': 'Link-10', 'communicationType': 1, 'eventId': 'BMXPMEV2LHN3GHZ', 'inventoryType': 3, 'inventory': 2, 'inventoryTags': 'sdfsdf', 'internalreference': 'sdfsdf'}, Headers: {'Content-Type': 'application/json'}, Auth: (rydestahl.test, ************)
+2024-05-22 08:48:13,556 INFO:Response status code for Link-10: 200
+2024-05-22 08:48:13,556 INFO:Response text for Link-10: {
+  "id": "99G8Y24",
+  "name": "Link-10",
+  "communicationType": 1,
+  "campaign": {
+    "id": "BUN8NBYK",
+    "name": "nytt test"
+  },
+  "event": {
+    "id": "BMXPMEV2LHN3GHZ",
+    "name": "Evenemang till kampanjAPI"
+  },
+  "inventoryType": 3,
+  "inventoryTags": null,
+  "inventory": 2,
+  "inventoryTotal": 2,
+  "inventoryConsumed": 0,
+  "inventoryReserved": 0,
+  "internalReference": "sdfsdf",
+  "url": "https://secure.tickster.com/bmxpmev2lhn3ghz?c=99g8y24"
+}
+2024-05-22 08:48:13,556 INFO:Received JSON response for Link-10: {'id': '99G8Y24', 'name': 'Link-10', 'communicationType': 1, 'campaign': {'id': 'BUN8NBYK', 'name': 'nytt test'}, 'event': {'id': 'BMXPMEV2LHN3GHZ', 'name': 'Evenemang till kampanjAPI'}, 'inventoryType': 3, 'inventoryTags': None, 'inventory': 2, 'inventoryTotal': 2, 'inventoryConsumed': 0, 'inventoryReserved': 0, 'internalReference': 'sdfsdf', 'url': 'https://secure.tickster.com/bmxpmev2lhn3ghz?c=99g8y24'}
+2024-05-22 08:48:14,213 INFO:Sending request for Link-11: URL: https://api.tickster.com/sv/api/0.4/crm/A86XZUHTT37MGBV/campaigns/BUN8NBYK/communications?key=4f07078a24ee683d, Payload: {'name': 'Link-11', 'communicationType': 1, 'eventId': 'BMXPMEV2LHN3GHZ', 'inventoryType': 3, 'inventory': 2, 'inventoryTags': 'sdfsdf', 'internalreference': 'sdfsdf'}, Headers: {'Content-Type': 'application/json'}, Auth: (rydestahl.test, ************)
+2024-05-22 08:48:14,213 INFO:Response status code for Link-11: 200
+2024-05-22 08:48:14,213 INFO:Response text for Link-11: {
+  "id": "JNC2X2M",
+  "name": "Link-11",
+  "communicationType": 1,
+  "campaign": {
+    "id": "BUN8NBYK",
+    "name": "nytt test"
+  },
+  "event": {
+    "id": "BMXPMEV2LHN3GHZ",
+    "name": "Evenemang till kampanjAPI"
+  },
+  "inventoryType": 3,
+  "inventoryTags": null,
+  "inventory": 2,
+  "inventoryTotal": 2,
+  "inventoryConsumed": 0,
+  "inventoryReserved": 0,
+  "internalReference": "sdfsdf",
+  "url": "https://secure.tickster.com/bmxpmev2lhn3ghz?c=jnc2x2m"
+}
+2024-05-22 08:48:14,213 INFO:Received JSON response for Link-11: {'id': 'JNC2X2M', 'name': 'Link-11', 'communicationType': 1, 'campaign': {'id': 'BUN8NBYK', 'name': 'nytt test'}, 'event': {'id': 'BMXPMEV2LHN3GHZ', 'name': 'Evenemang till kampanjAPI'}, 'inventoryType': 3, 'inventoryTags': None, 'inventory': 2, 'inventoryTotal': 2, 'inventoryConsumed': 0, 'inventoryReserved': 0, 'internalReference': 'sdfsdf', 'url': 'https://secure.tickster.com/bmxpmev2lhn3ghz?c=jnc2x2m'}
+2024-05-22 08:48:14,824 INFO:Sending request for Link-12: URL: https://api.tickster.com/sv/api/0.4/crm/A86XZUHTT37MGBV/campaigns/BUN8NBYK/communications?key=4f07078a24ee683d, Payload: {'name': 'Link-12', 'communicationType': 1, 'eventId': 'BMXPMEV2LHN3GHZ', 'inventoryType': 3, 'inventory': 2, 'inventoryTags': 'sdfsdf', 'internalreference': 'sdfsdf'}, Headers: {'Content-Type': 'application/json'}, Auth: (rydestahl.test, ************)
+2024-05-22 08:48:14,826 INFO:Response status code for Link-12: 200
+2024-05-22 08:48:14,826 INFO:Response text for Link-12: {
+  "id": "FAZ9642",
+  "name": "Link-12",
+  "communicationType": 1,
+  "campaign": {
+    "id": "BUN8NBYK",
+    "name": "nytt test"
+  },
+  "event": {
+    "id": "BMXPMEV2LHN3GHZ",
+    "name": "Evenemang till kampanjAPI"
+  },
+  "inventoryType": 3,
+  "inventoryTags": null,
+  "inventory": 2,
+  "inventoryTotal": 2,
+  "inventoryConsumed": 0,
+  "inventoryReserved": 0,
+  "internalReference": "sdfsdf",
+  "url": "https://secure.tickster.com/bmxpmev2lhn3ghz?c=faz9642"
+}
+2024-05-22 08:48:14,826 INFO:Received JSON response for Link-12: {'id': 'FAZ9642', 'name': 'Link-12', 'communicationType': 1, 'campaign': {'id': 'BUN8NBYK', 'name': 'nytt test'}, 'event': {'id': 'BMXPMEV2LHN3GHZ', 'name': 'Evenemang till kampanjAPI'}, 'inventoryType': 3, 'inventoryTags': None, 'inventory': 2, 'inventoryTotal': 2, 'inventoryConsumed': 0, 'inventoryReserved': 0, 'internalReference': 'sdfsdf', 'url': 'https://secure.tickster.com/bmxpmev2lhn3ghz?c=faz9642'}
+2024-05-22 08:48:15,453 INFO:Sending request for Link-13: URL: https://api.tickster.com/sv/api/0.4/crm/A86XZUHTT37MGBV/campaigns/BUN8NBYK/communications?key=4f07078a24ee683d, Payload: {'name': 'Link-13', 'communicationType': 1, 'eventId': 'BMXPMEV2LHN3GHZ', 'inventoryType': 3, 'inventory': 2, 'inventoryTags': 'sdfsdf', 'internalreference': 'sdfsdf'}, Headers: {'Content-Type': 'application/json'}, Auth: (rydestahl.test, ************)
+2024-05-22 08:48:15,453 INFO:Response status code for Link-13: 200
+2024-05-22 08:48:15,453 INFO:Response text for Link-13: {
+  "id": "H7C5838",
+  "name": "Link-13",
+  "communicationType": 1,
+  "campaign": {
+    "id": "BUN8NBYK",
+    "name": "nytt test"
+  },
+  "event": {
+    "id": "BMXPMEV2LHN3GHZ",
+    "name": "Evenemang till kampanjAPI"
+  },
+  "inventoryType": 3,
+  "inventoryTags": null,
+  "inventory": 2,
+  "inventoryTotal": 2,
+  "inventoryConsumed": 0,
+  "inventoryReserved": 0,
+  "internalReference": "sdfsdf",
+  "url": "https://secure.tickster.com/bmxpmev2lhn3ghz?c=h7c5838"
+}
+2024-05-22 08:48:15,453 INFO:Received JSON response for Link-13: {'id': 'H7C5838', 'name': 'Link-13', 'communicationType': 1, 'campaign': {'id': 'BUN8NBYK', 'name': 'nytt test'}, 'event': {'id': 'BMXPMEV2LHN3GHZ', 'name': 'Evenemang till kampanjAPI'}, 'inventoryType': 3, 'inventoryTags': None, 'inventory': 2, 'inventoryTotal': 2, 'inventoryConsumed': 0, 'inventoryReserved': 0, 'internalReference': 'sdfsdf', 'url': 'https://secure.tickster.com/bmxpmev2lhn3ghz?c=h7c5838'}
+2024-05-22 08:48:16,074 INFO:Sending request for Link-14: URL: https://api.tickster.com/sv/api/0.4/crm/A86XZUHTT37MGBV/campaigns/BUN8NBYK/communications?key=4f07078a24ee683d, Payload: {'name': 'Link-14', 'communicationType': 1, 'eventId': 'BMXPMEV2LHN3GHZ', 'inventoryType': 3, 'inventory': 2, 'inventoryTags': 'sdfsdf', 'internalreference': 'sdfsdf'}, Headers: {'Content-Type': 'application/json'}, Auth: (rydestahl.test, ************)
+2024-05-22 08:48:16,076 INFO:Response status code for Link-14: 200
+2024-05-22 08:48:16,076 INFO:Response text for Link-14: {
+  "id": "TU79P0V",
+  "name": "Link-14",
+  "communicationType": 1,
+  "campaign": {
+    "id": "BUN8NBYK",
+    "name": "nytt test"
+  },
+  "event": {
+    "id": "BMXPMEV2LHN3GHZ",
+    "name": "Evenemang till kampanjAPI"
+  },
+  "inventoryType": 3,
+  "inventoryTags": null,
+  "inventory": 2,
+  "inventoryTotal": 2,
+  "inventoryConsumed": 0,
+  "inventoryReserved": 0,
+  "internalReference": "sdfsdf",
+  "url": "https://secure.tickster.com/bmxpmev2lhn3ghz?c=tu79p0v"
+}
+2024-05-22 08:48:16,076 INFO:Received JSON response for Link-14: {'id': 'TU79P0V', 'name': 'Link-14', 'communicationType': 1, 'campaign': {'id': 'BUN8NBYK', 'name': 'nytt test'}, 'event': {'id': 'BMXPMEV2LHN3GHZ', 'name': 'Evenemang till kampanjAPI'}, 'inventoryType': 3, 'inventoryTags': None, 'inventory': 2, 'inventoryTotal': 2, 'inventoryConsumed': 0, 'inventoryReserved': 0, 'internalReference': 'sdfsdf', 'url': 'https://secure.tickster.com/bmxpmev2lhn3ghz?c=tu79p0v'}
+2024-05-22 08:48:16,710 INFO:Sending request for Link-15: URL: https://api.tickster.com/sv/api/0.4/crm/A86XZUHTT37MGBV/campaigns/BUN8NBYK/communications?key=4f07078a24ee683d, Payload: {'name': 'Link-15', 'communicationType': 1, 'eventId': 'BMXPMEV2LHN3GHZ', 'inventoryType': 3, 'inventory': 2, 'inventoryTags': 'sdfsdf', 'internalreference': 'sdfsdf'}, Headers: {'Content-Type': 'application/json'}, Auth: (rydestahl.test, ************)
+2024-05-22 08:48:16,710 INFO:Response status code for Link-15: 200
+2024-05-22 08:48:16,710 INFO:Response text for Link-15: {
+  "id": "9L4378U",
+  "name": "Link-15",
+  "communicationType": 1,
+  "campaign": {
+    "id": "BUN8NBYK",
+    "name": "nytt test"
+  },
+  "event": {
+    "id": "BMXPMEV2LHN3GHZ",
+    "name": "Evenemang till kampanjAPI"
+  },
+  "inventoryType": 3,
+  "inventoryTags": null,
+  "inventory": 2,
+  "inventoryTotal": 2,
+  "inventoryConsumed": 0,
+  "inventoryReserved": 0,
+  "internalReference": "sdfsdf",
+  "url": "https://secure.tickster.com/bmxpmev2lhn3ghz?c=9l4378u"
+}
+2024-05-22 08:48:16,710 INFO:Received JSON response for Link-15: {'id': '9L4378U', 'name': 'Link-15', 'communicationType': 1, 'campaign': {'id': 'BUN8NBYK', 'name': 'nytt test'}, 'event': {'id': 'BMXPMEV2LHN3GHZ', 'name': 'Evenemang till kampanjAPI'}, 'inventoryType': 3, 'inventoryTags': None, 'inventory': 2, 'inventoryTotal': 2, 'inventoryConsumed': 0, 'inventoryReserved': 0, 'internalReference': 'sdfsdf', 'url': 'https://secure.tickster.com/bmxpmev2lhn3ghz?c=9l4378u'}
+2024-05-22 08:48:16,752 INFO:127.0.0.1 - - [22/May/2024 08:48:16] "POST / HTTP/1.1" 200 -
+2024-05-22 08:48:30,957 INFO:127.0.0.1 - - [22/May/2024 08:48:30] "GET /socket.io/?EIO=4&transport=polling&t=O-V3ltf HTTP/1.1" 200 -
+2024-05-22 08:48:30,966 INFO:127.0.0.1 - - [22/May/2024 08:48:30] "POST /socket.io/?EIO=4&transport=polling&t=O-V3ltm&sid=_Nftqmq4WzTbfD7CAAAC HTTP/1.1" 200 -
+2024-05-22 08:48:30,967 INFO:127.0.0.1 - - [22/May/2024 08:48:30] "GET /socket.io/?EIO=4&transport=polling&t=O-V3ltn&sid=_Nftqmq4WzTbfD7CAAAC HTTP/1.1" 200 -
