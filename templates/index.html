@@ -171,7 +171,7 @@
                 />
               </div>
               <div class="form-group">
-                <label for="eventId">Event ID</label>
+                <label for="eventId">EventRequestCode</label>
                 <input
                   type="text"
                   class="form-control"
@@ -179,7 +179,10 @@
                   name="eventId"
                   required
                 />
-                <p>Ett id till evenemanget som är kopplat till kampanjen.</p>
+                <p>
+                  EventRequestCode till evenemanget som är kopplat till
+                  kampanjen.
+                </p>
               </div>
             </div>
             <div class="col-md-6">
@@ -190,9 +193,10 @@
                   class="form-control"
                   id="communicationType"
                   name="communicationType"
+                  value="1"
                   required
                 />
-                <p>hej.</p>
+                <p>Giltiga val: 1. I dagsläget har vi bara stöd för länk.</p>
               </div>
               <div class="form-group">
                 <label for="inventoryType">Inventory Type</label>
@@ -249,7 +253,10 @@
               </div>
             </div>
           </div>
-          <div class="form-group margin-left">
+          <a href="{{ url_for('download_template') }}" class="btn btn-primary"
+            >Ladda ner Excel-mall</a
+          >
+          <div class="form-group margin-left margin-top">
             <label for="file">Ladda upp Excel-fil</label>
             <input
               type="file"

@@ -10,6 +10,7 @@ from flask_socketio import SocketIO, emit
 app = Flask(__name__)
 app.config['UPLOAD_FOLDER'] = 'uploads'
 app.config['DOWNLOAD_FOLDER'] = 'downloads'
+app.config['TEMPLATE_FILE'] = 'template_file'
 socketio = SocketIO(app)
 
 # Configure logging
@@ -109,9 +110,21 @@ def index():
 
     return render_template('index.html')
 
+@app.route('/download_template')
+def download_template():
+    template_path = os.path.join(app.config['TEMPLATE_FILE'], 'names.xlsx')
+    return send_file(template_path, as_attachment=True)
+
 if __name__ == '__main__':
     if not os.path.exists(app.config['UPLOAD_FOLDER']):
         os.makedirs(app.config['UPLOAD_FOLDER'])
     if not os.path.exists(app.config['DOWNLOAD_FOLDER']):
         os.makedirs(app.config['DOWNLOAD_FOLDER'])
-    socketio.run(app, debug=True)
+    app.run(debug=False)
+
+if __name__ == '__main__':
+    if not os.path.exists(app.config['UPLOAD_FOLDER']):
+        os.makedirs(app.config['UPLOAD_FOLDER'])
+    if not os.path.exists(app.config['DOWNLOAD_FOLDER']):
+        os.makedirs(app.config['DOWNLOAD_FOLDER'])
+    socketio.run(app, debug=False)
