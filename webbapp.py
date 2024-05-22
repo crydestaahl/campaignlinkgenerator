@@ -120,11 +120,11 @@ if __name__ == '__main__':
         os.makedirs(app.config['UPLOAD_FOLDER'])
     if not os.path.exists(app.config['DOWNLOAD_FOLDER']):
         os.makedirs(app.config['DOWNLOAD_FOLDER'])
-    app.run(debug=False)
+    app.run(debug=True)
 
 if __name__ == '__main__':
     if not os.path.exists(app.config['UPLOAD_FOLDER']):
         os.makedirs(app.config['UPLOAD_FOLDER'])
     if not os.path.exists(app.config['DOWNLOAD_FOLDER']):
         os.makedirs(app.config['DOWNLOAD_FOLDER'])
-    socketio.run(app, debug=False)
+    socketio.run(app, debug=True)
