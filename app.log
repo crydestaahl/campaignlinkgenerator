@@ -38437,3 +38437,10 @@ background-color:#555555;}
  * Running on http://127.0.0.1:5000
 2024-05-24 08:53:06,432 INFO:[33mPress CTRL+C to quit[0m
 2024-05-24 08:53:06,433 INFO: * Restarting with stat
+2024-05-24 08:53:07,442 WARNING: * Debugger is active!
+2024-05-24 08:53:07,449 INFO: * Debugger PIN: 524-106-737
+2024-05-24 08:55:39,543 INFO:127.0.0.1 - - [24/May/2024 08:55:39] "GET / HTTP/1.1" 200 -
+2024-05-24 08:55:40,018 INFO:127.0.0.1 - - [24/May/2024 08:55:40] "GET /socket.io/?EIO=4&transport=polling&t=O-fOa7j HTTP/1.1" 200 -
+2024-05-24 08:55:40,032 INFO:127.0.0.1 - - [24/May/2024 08:55:40] "POST /socket.io/?EIO=4&transport=polling&t=O-fOa7w&sid=nsANnBA5y16nq9TpAAAA HTTP/1.1" 200 -
+2024-05-24 08:55:40,035 INFO:127.0.0.1 - - [24/May/2024 08:55:40] "GET /socket.io/?EIO=4&transport=polling&t=O-fOa7x&sid=nsANnBA5y16nq9TpAAAA HTTP/1.1" 200 -
+2024-05-24 08:55:40,109 INFO:127.0.0.1 - - [24/May/2024 08:55:40] "GET /socket.io/?EIO=4&transport=polling&t=O-fOa8_&sid=nsANnBA5y16nq9TpAAAA HTTP/1.1" 200 -
