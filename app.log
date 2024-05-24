@@ -38403,3 +38403,37 @@ background-color:#555555;}
 2024-05-22 11:44:16,849 INFO:127.0.0.1 - - [22/May/2024 11:44:16] "GET /socket.io/?EIO=4&transport=polling&t=O-Vh-7f HTTP/1.1" 200 -
 2024-05-22 11:44:16,856 INFO:127.0.0.1 - - [22/May/2024 11:44:16] "POST /socket.io/?EIO=4&transport=polling&t=O-Vh-ZJ&sid=IQBCO05mam9vp950AAAA HTTP/1.1" 200 -
 2024-05-22 11:44:16,859 INFO:127.0.0.1 - - [22/May/2024 11:44:16] "GET /socket.io/?EIO=4&transport=polling&t=O-Vh-ZK&sid=IQBCO05mam9vp950AAAA HTTP/1.1" 200 -
+2024-05-22 12:30:55,727 INFO:127.0.0.1 - - [22/May/2024 12:30:55] "GET /socket.io/?EIO=4&transport=websocket&sid=IQBCO05mam9vp950AAAA HTTP/1.1" 200 -
+2024-05-22 13:01:37,104 INFO:127.0.0.1 - - [22/May/2024 13:01:37] "GET /socket.io/?EIO=4&transport=polling&t=O-Vzh19 HTTP/1.1" 200 -
+2024-05-22 13:01:37,348 INFO:127.0.0.1 - - [22/May/2024 13:01:37] "POST /socket.io/?EIO=4&transport=polling&t=O-VzhUt&sid=6Op7ooBw4qjiBe7rAAAC HTTP/1.1" 200 -
+2024-05-22 13:01:37,357 INFO:127.0.0.1 - - [22/May/2024 13:01:37] "GET /socket.io/?EIO=4&transport=polling&t=O-VzhUw&sid=6Op7ooBw4qjiBe7rAAAC HTTP/1.1" 200 -
+2024-05-22 13:01:37,394 INFO:127.0.0.1 - - [22/May/2024 13:01:37] "GET /socket.io/?EIO=4&transport=polling&t=O-VzhVX&sid=6Op7ooBw4qjiBe7rAAAC HTTP/1.1" 200 -
+2024-05-22 17:02:29,713 INFO:127.0.0.1 - - [22/May/2024 17:02:29] "GET /socket.io/?EIO=4&transport=websocket&sid=6Op7ooBw4qjiBe7rAAAC HTTP/1.1" 200 -
+2024-05-23 08:18:45,867 INFO:127.0.0.1 - - [23/May/2024 08:18:45] "GET /socket.io/?EIO=4&transport=polling&t=O-a6XLq HTTP/1.1" 200 -
+2024-05-23 08:18:51,306 INFO:127.0.0.1 - - [23/May/2024 08:18:51] "POST /socket.io/?EIO=4&transport=polling&t=O-a6YmC&sid=Wj4U8IMw0lD_-OA5AAAE HTTP/1.1" 200 -
+2024-05-23 08:18:51,307 INFO:127.0.0.1 - - [23/May/2024 08:18:51] "GET /socket.io/?EIO=4&transport=polling&t=O-a6Ymc&sid=Wj4U8IMw0lD_-OA5AAAE HTTP/1.1" 200 -
+2024-05-23 08:18:51,361 INFO:127.0.0.1 - - [23/May/2024 08:18:51] "POST /socket.io/?EIO=4&transport=polling&t=O-a6Ymd&sid=Wj4U8IMw0lD_-OA5AAAE HTTP/1.1" 200 -
+2024-05-23 08:18:56,671 INFO:127.0.0.1 - - [23/May/2024 08:18:56] "GET /socket.io/?EIO=4&transport=polling&t=O-a6ZMx HTTP/1.1" 200 -
+2024-05-23 08:18:57,134 INFO:127.0.0.1 - - [23/May/2024 08:18:57] "POST /socket.io/?EIO=4&transport=polling&t=O-a6aW_&sid=_B14UGNb97On_2LtAAAG HTTP/1.1" 200 -
+2024-05-23 08:18:57,149 INFO:127.0.0.1 - - [23/May/2024 08:18:57] "GET /socket.io/?EIO=4&transport=polling&t=O-a6aYU&sid=_B14UGNb97On_2LtAAAG HTTP/1.1" 200 -
+2024-05-23 08:18:57,367 INFO:127.0.0.1 - - [23/May/2024 08:18:57] "GET /socket.io/?EIO=4&transport=polling&t=O-a6aaN&sid=_B14UGNb97On_2LtAAAG HTTP/1.1" 200 -
+2024-05-23 16:01:23,246 INFO:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-05-23 16:01:23,246 INFO:[33mPress CTRL+C to quit[0m
+2024-05-23 16:01:23,246 INFO: * Restarting with stat
+2024-05-23 16:01:24,145 WARNING: * Debugger is active!
+2024-05-23 16:01:24,151 INFO: * Debugger PIN: 524-106-737
+2024-05-23 16:09:09,370 WARNING: * Debugger is active!
+2024-05-23 16:09:09,370 INFO: * Debugger PIN: 524-106-737
+2024-05-23 16:09:09,582 INFO:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-05-23 16:09:09,582 INFO:[33mPress CTRL+C to quit[0m
+2024-05-23 16:09:09,582 INFO: * Restarting with stat
+2024-05-23 16:09:10,547 WARNING: * Debugger is active!
+2024-05-23 16:09:10,551 INFO: * Debugger PIN: 524-106-737
+2024-05-23 16:09:10,847 WARNING: * Debugger is active!
+2024-05-23 16:09:10,848 INFO: * Debugger PIN: 524-106-737
+2024-05-24 08:53:06,432 INFO:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-05-24 08:53:06,432 INFO:[33mPress CTRL+C to quit[0m
+2024-05-24 08:53:06,433 INFO: * Restarting with stat
